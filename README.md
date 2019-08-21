@@ -1,4 +1,4 @@
-# Music Shop Application
+# Music Shop Application - Desktop - Windows Forms
 
 ## Table of contents
 * [General info](#general-info)
