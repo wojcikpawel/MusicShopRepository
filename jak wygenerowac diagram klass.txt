@@ -1,0 +1,1 @@
+PPM na projekt -> View Class Diagram -> File -> Print -> PDF Foxit Reader -> Zapisz jako .pdf
