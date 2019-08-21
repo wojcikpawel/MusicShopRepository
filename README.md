@@ -4,8 +4,6 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
-* [Inspiration](#inspiration)
 * [Features](#features)
 
 ## General info
