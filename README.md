@@ -20,6 +20,6 @@ Project is created with:
 * Visual Studio - version 14.0.25422.01 Update 3 2015 Community
 
 ## Features
-* playing mp3 files
+* playing .mp3 files
 * virtual music shop
 * export music playlists to .pdf file
