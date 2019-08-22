@@ -13,8 +13,8 @@
 Virtual music shop with simple music player as a desktop application.
 
 ## Screenshots
-![musicShopPicture](./musicShop.jpg)
-![musicShopPicture2](./musicShopPdf.jpg)
+![musicShopPicture](./Images/musicShop.jpg)
+![musicShopPicture2](./Images/musicShopPdf.jpg)
 
 ## Technologies
 Project is created with:
