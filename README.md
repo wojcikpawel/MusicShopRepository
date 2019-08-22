@@ -33,5 +33,5 @@ Project is created with:
 .pdf file path
 ```sh
 MusicShopUI->bin->Debug->PurchasedAlbums.pdf
-
+C:\Users\Pawe³ Wójcik\Documents\C# PULPIT\MusicShopTest — kopia\MusicShopUI\bin\Debug
 ```
