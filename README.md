@@ -5,6 +5,7 @@
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Features](#features)
+* [Running Desktop Application](#running-desktop-application)
 
 ## General info
 Virtual music shop with simple music player as a desktop application.
