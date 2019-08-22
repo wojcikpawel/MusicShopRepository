@@ -1,7 +1,7 @@
 # Music Shop Application - Desktop - Windows Forms
 
 ## Table of contents
-* [General info](#general-info)
+* [General Info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Features](#features)
