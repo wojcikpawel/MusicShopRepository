@@ -15,5 +15,10 @@ namespace UnitTestProject1
         {
 
         }
+
+        public void TestMetodaNowa()
+        {
+
+        }
     }
 }
