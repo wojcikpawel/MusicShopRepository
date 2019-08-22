@@ -37,7 +37,6 @@ Project is created with:
 ## Additional
 .pdf file path
 ```sh
-MusicShopUI->bin->Debug->PurchasedAlbums.pdf
-C:\Users\Pawe³ Wójcik\Documents\C# PULPIT\MusicShopTest — kopia\MusicShopUI\bin\Debug
+C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ```
 
