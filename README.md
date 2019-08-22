@@ -23,3 +23,7 @@ Project is created with:
 * playing .mp3 files
 * virtual music shop
 * export music playlists to .pdf file
+
+## Running Desktop Application
+* Open Visual Studio
+* Click Start
