@@ -6,6 +6,7 @@
 * [Technologies](#technologies)
 * [Features](#features)
 * [Running Desktop Application](#running-desktop-application)
+* [Library](#library)
 
 ## General info
 Virtual music shop with simple music player as a desktop application.
@@ -35,3 +36,5 @@ Project is created with:
 MusicShopUI->bin->Debug->PurchasedAlbums.pdf
 C:\Users\Pawe³ Wójcik\Documents\C# PULPIT\MusicShopTest — kopia\MusicShopUI\bin\Debug
 ```
+## Library
+* [iTextSharp](https://www.nuget.org/packages/iTextSharp/5.5.13.1)
