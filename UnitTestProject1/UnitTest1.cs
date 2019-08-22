@@ -10,15 +10,5 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
         }
-
-        public void aaaa()
-        {
-
-        }
-
-        public void TestMetodaNowa()
-        {
-
-        }
     }
 }
