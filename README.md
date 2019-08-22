@@ -35,7 +35,7 @@ Project is created with:
 * [iTextSharp](https://www.nuget.org/packages/iTextSharp/5.5.13.1)
 
 ## Additional
-.pdf file path
+* .pdf file path
 ```sh
 C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ```
