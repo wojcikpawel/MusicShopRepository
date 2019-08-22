@@ -28,3 +28,10 @@ Project is created with:
 ## Running Desktop Application
 * Open Visual Studio
 * Click Start
+
+## Addition
+.pdf file path
+```sh
+MusicShopUI->bin->Debug->PurchasedAlbums.pdf
+
+```
