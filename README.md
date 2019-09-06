@@ -16,7 +16,6 @@ Virtual music shop with simple music player as a desktop application.
 ![musicShopPicture](./Images/musicShop.jpg)
 ![musicShopPicture2](./Images/musicShopPdf.jpg)
 
-
 ## Technologies
 Project is created with:
 * C# - version 8.0
@@ -39,6 +38,10 @@ Project is created with:
 * [Packages Manager for .NET - NuGet - iTextSharp](https://www.nuget.org/packages/iTextSharp/5.5.13.1)
 ![itextSharpPicture3](./Images/nugetPicture.jpg)
 ![itextSharpPicture3](./Images/itextsharp.jpg)
+* Help Links:
+  * [1](https://forum.android.com.pl/topic/173788-polskie-znaki-przy-budowaniu-pdf-itext/)
+  * [2](https://4programmers.net/Forum/Java/93697-IText_Polskie_znaki)
+  * [3](https://4programmers.net/Forum/C_i_.NET/159536-ITextSharp_i_CP1250)
 
 ## Additional
 * .pdf file path:
