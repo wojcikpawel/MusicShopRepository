@@ -40,8 +40,12 @@ Project is created with:
 ![itextSharpPicture3](./Images/itextsharp.jpg)
 
 ## Additional
-* .pdf file path
+* .pdf file path:
 ```sh
 C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ```
-
+* .NET components:
+  * listbox
+  * button
+  * picturebox
+  * label
