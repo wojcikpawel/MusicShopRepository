@@ -36,7 +36,7 @@ Project is created with:
 * Click Start
 
 ## Library
-* [iTextSharp](https://www.nuget.org/packages/iTextSharp/5.5.13.1)
+* [Packages Manager for .NET - NuGet - iTextSharp](https://www.nuget.org/packages/iTextSharp/5.5.13.1)
 ![itextSharpPicture3](./Images/itextsharp.jpg)
 
 ## Additional
