@@ -60,3 +60,9 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * button
   * picturebox
   * label
+  
+* How to use NuGet:
+  * Tools -> NuGet Package Manager -> Package Manager Console
+  * Tools -> NuGet Package Manager -> Manage NuGet Packages Manager for Solution...
+  * Check packages.config file
+  * If You have .dll file on desktop You can add reference on click PPM on References -> Add Reference...
