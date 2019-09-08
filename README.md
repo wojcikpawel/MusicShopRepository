@@ -35,7 +35,11 @@ Project is created with:
 * Click Start
 
 ## Library
-* [Packages Manager for .NET - NuGet - iTextSharp](https://www.nuget.org/packages/iTextSharp/5.5.13.1)
+Packages Manager for .NET - NuGet:
+* [itextsharp.xtra.dll](https://www.nuget.org/packages/itextsharp.xtra/)
+* [itextsharp.pdfa.dll](https://www.nuget.org/packages/itextsharp.pdfa/)
+* [itextsharp.dll](https://www.nuget.org/packages/iTextSharp/)
+
 ![itextSharpPicture3](./Images/nugetPicture.jpg)
 ![itextSharpPicture3](./Images/itextsharp.jpg)
 * Help Links:
