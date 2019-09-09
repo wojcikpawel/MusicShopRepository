@@ -39,9 +39,11 @@ Packages Manager for .NET - NuGet:
 * [itextsharp.xtra.dll](https://www.nuget.org/packages/itextsharp.xtra/)
 * [itextsharp.pdfa.dll](https://www.nuget.org/packages/itextsharp.pdfa/)
 * [itextsharp.dll](https://www.nuget.org/packages/iTextSharp/)
+* [itextsharp](https://github.com/itext/itextsharp)
 * [Microsoft.Report.Viewer](https://www.nuget.org/packages/Microsoft.Report.Viewer/)
 * [PdfSharp](https://www.nuget.org/packages/PdfSharp/1.51.5185-beta)
 * [WMPLib](https://www.nuget.org/packages/WMPLib/)
+* [sourceforge](https://sourceforge.net/)
 
 ![itextSharpPicture3](./Images/nugetPicture.jpg)
 ![itextSharpPicture3](./Images/itextsharp.jpg)
