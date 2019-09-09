@@ -1,0 +1,17 @@
+1. Download package iTextsharp from https://sourceforge.net/projects/itextsharp/?source=typ_redirect
+2. Three .dll files copy to project folder .../bin/obj/properties
+3. Add references to project
+4. Create button and using the following namespaces:
+using System.IO;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+5. In button body method we should put the following code:
+Document doc = new Document(iTextSharp.text.PageSize.LETTER, 10, 10, 42, 35);
+            PdfWriter wri = PdfWriter.GetInstance(doc, new FileStream("Test.pdf", FileMode.Create));
+            doc.Open();
+            Paragraph paragraph = new Paragraph("This is my kurde first line of paragraph!");
+            Paragraph para = new Paragraph("ELLOO");
+            doc.Add(paragraph);
+            doc.Add(para);
+            doc.Close();
+6. .pdf file has been created at .../project/bin/debug
