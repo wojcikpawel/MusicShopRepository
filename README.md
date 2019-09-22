@@ -68,3 +68,9 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Tools -> NuGet Package Manager -> Manage NuGet Packages Manager for Solution...
   * Check packages.config file
   * If You have .dll file on desktop You can add reference clicking PPM on References -> Add Reference...
+  
+## Useful libraries
+* http://www.csharpopensource.com
+* http://www.xmlpdf.com/dotnetcore.html
+* RDLC
+* CodeProject
