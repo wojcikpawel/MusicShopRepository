@@ -74,3 +74,4 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * http://www.xmlpdf.com/dotnetcore.html
 * RDLC
 * CodeProject
+* https://cezarywalenciuk.pl/blog/programing/post/reportviewer-tworzenie-pliku-pdf-w-c
