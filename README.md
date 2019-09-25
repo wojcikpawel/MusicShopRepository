@@ -13,7 +13,7 @@
 Virtual music shop with simple music player as a desktop application.
 
 ## Screenshots
-![musicShopPicture](./Images/musicShop.jpg)
+![musicShopPicture](./Images/musicShop2.jpg)
 ![musicShopPicture2](./Images/musicShopPdf.jpg)
 
 ## Technologies
