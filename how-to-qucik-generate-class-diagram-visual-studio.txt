@@ -1,0 +1,1 @@
+PPM on project -> View Class Diagram -> File -> Print -> PDF Foxit Reader -> Save as .pdf file

@@ -35,7 +35,16 @@ Project is created with:
 * Click Start
 
 ## Library
-* [Packages Manager for .NET - NuGet - iTextSharp](https://www.nuget.org/packages/iTextSharp/5.5.13.1)
+Packages Manager for .NET - NuGet:
+* [itextsharp.xtra.dll](https://www.nuget.org/packages/itextsharp.xtra/)
+* [itextsharp.pdfa.dll](https://www.nuget.org/packages/itextsharp.pdfa/)
+* [itextsharp.dll](https://www.nuget.org/packages/iTextSharp/)
+* [itextsharp](https://github.com/itext/itextsharp)
+* [Microsoft.Report.Viewer](https://www.nuget.org/packages/Microsoft.Report.Viewer/)
+* [PdfSharp](https://www.nuget.org/packages/PdfSharp/1.51.5185-beta)
+* [WMPLib](https://www.nuget.org/packages/WMPLib/)
+* [sourceforge](https://sourceforge.net/)
+
 ![itextSharpPicture3](./Images/nugetPicture.jpg)
 ![itextSharpPicture3](./Images/itextsharp.jpg)
 * Help Links:
@@ -53,3 +62,19 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * button
   * picturebox
   * label
+  
+* How to use NuGet:
+  * Tools -> NuGet Package Manager -> Package Manager Console
+  * Tools -> NuGet Package Manager -> Manage NuGet Packages Manager for Solution...
+  * Check packages.config file
+  * If You have .dll file on desktop You can add reference clicking PPM on References -> Add Reference...
+  
+## Useful libraries and sides
+* http://www.csharpopensource.com
+* http://www.xmlpdf.com/dotnetcore.html
+* RDLC
+* CodeProject
+* https://cezarywalenciuk.pl/blog/programing/post/reportviewer-tworzenie-pliku-pdf-w-c
+* Converter Audio - https://online-audio-converter.com/pl/
+* Converter PDF - https://www.freepdfconvert.com/pl
+* Download Missing DLL Files - https://www.dll-files.com/
