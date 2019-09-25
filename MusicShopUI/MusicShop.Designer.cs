@@ -103,7 +103,7 @@
             this.AddToCart.Name = "AddToCart";
             this.AddToCart.Size = new System.Drawing.Size(138, 50);
             this.AddToCart.TabIndex = 3;
-            this.AddToCart.Text = "Add To Cart ->";
+            this.AddToCart.Text = "Add ->";
             this.AddToCart.UseVisualStyleBackColor = false;
             this.AddToCart.Click += new System.EventHandler(this.AddToCart_Click);
             // 
@@ -189,7 +189,7 @@
             this.backToStore.Name = "backToStore";
             this.backToStore.Size = new System.Drawing.Size(138, 50);
             this.backToStore.TabIndex = 11;
-            this.backToStore.Text = "<- Back To Store";
+            this.backToStore.Text = "<- Back";
             this.backToStore.UseVisualStyleBackColor = false;
             this.backToStore.Click += new System.EventHandler(this.BackToStore_Click);
             // 
@@ -254,7 +254,7 @@
             this.buttonCreatePDF.Name = "buttonCreatePDF";
             this.buttonCreatePDF.Size = new System.Drawing.Size(138, 50);
             this.buttonCreatePDF.TabIndex = 26;
-            this.buttonCreatePDF.Text = "CreatePDF";
+            this.buttonCreatePDF.Text = "Export .pdf";
             this.buttonCreatePDF.UseVisualStyleBackColor = false;
             this.buttonCreatePDF.Click += new System.EventHandler(this.buttonCreatePDF_Click);
             // 

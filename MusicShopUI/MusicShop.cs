@@ -271,6 +271,10 @@ namespace MusicShopUI
             cartBinding.Remove(selectedAlbum);
 
             albumsBinding.ResetBindings(false);
+
+            //make sound effect of button 'Back'
+            SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndBackToStore.wav");
+            splayer.Play();
         }
 
         private void purchasedAlbumsListbox_SelectedIndexChanged(object sender, EventArgs e)
