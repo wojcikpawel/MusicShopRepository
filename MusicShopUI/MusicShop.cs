@@ -202,6 +202,7 @@ namespace MusicShopUI
             //make sound effect of button 'Add'
             SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndAddToCart.wav");
             splayer.Play();
+
         }
 
         public void makePurchase_Click(object sender, EventArgs e)
