@@ -130,7 +130,7 @@
             // 
             // makePurchase
             // 
-            this.makePurchase.BackColor = System.Drawing.Color.YellowGreen;
+            this.makePurchase.BackColor = System.Drawing.Color.LightGreen;
             this.makePurchase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.makePurchase.Location = new System.Drawing.Point(754, 298);
             this.makePurchase.Name = "makePurchase";
@@ -248,7 +248,7 @@
             // 
             // buttonCreatePDF
             // 
-            this.buttonCreatePDF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.buttonCreatePDF.BackColor = System.Drawing.Color.Gray;
             this.buttonCreatePDF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonCreatePDF.Location = new System.Drawing.Point(386, 296);
             this.buttonCreatePDF.Name = "buttonCreatePDF";
