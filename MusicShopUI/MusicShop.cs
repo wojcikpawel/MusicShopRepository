@@ -198,6 +198,10 @@ namespace MusicShopUI
                 backToStore.Enabled = true;
                 makePurchase.Enabled = true;
             }
+
+            //make sound effect of button 'Add'
+            SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndAddToCart.wav");
+            splayer.Play();
         }
 
         public void makePurchase_Click(object sender, EventArgs e)
@@ -236,9 +240,7 @@ namespace MusicShopUI
             }
             artistsListbox.ClearSelected();
 
-            //make sound effect of button 'Add'
-            SoundPlayer splayer = new SoundPlayer(@"C:\Users\Paweł Wójcik\source\repos\wojcikpawel\MusicShopRepository\Resources\sndAddToCart.wave");
-            splayer.Play();
+           
 
         }
 
