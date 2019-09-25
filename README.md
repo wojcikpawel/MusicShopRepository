@@ -87,3 +87,4 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Converter PDF - https://www.freepdfconvert.com/pl
 * Download Missing DLL Files - https://www.dll-files.com/
 * The Complete Open-Source and Business Software Platform - https://sourceforge.net/
+* OpenGL.Net.WinForms v.0.8.4 - https://www.nuget.org/packages/OpenGL.Net.WinForms/
