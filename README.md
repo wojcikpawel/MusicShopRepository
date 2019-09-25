@@ -61,7 +61,10 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ```sh
 @"C:\Users\User\MusicShopRepository-master\Resources\sndAddToCart.wav"
 ```
+* .mp3 file path:
+```sh
 
+```
 * .NET components:
   * listbox
   * button
