@@ -329,9 +329,9 @@
             this.stop.BackgroundImage = global::MusicShopUI.Properties.Resources.mediaStop1;
             this.stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.stop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.stop.Location = new System.Drawing.Point(1212, 644);
+            this.stop.Location = new System.Drawing.Point(1202, 644);
             this.stop.Name = "stop";
-            this.stop.Size = new System.Drawing.Size(130, 77);
+            this.stop.Size = new System.Drawing.Size(140, 107);
             this.stop.TabIndex = 21;
             this.stop.UseVisualStyleBackColor = true;
             this.stop.Click += new System.EventHandler(this.stop_Click);
@@ -344,7 +344,7 @@
             this.play.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.play.Location = new System.Drawing.Point(940, 644);
             this.play.Name = "play";
-            this.play.Size = new System.Drawing.Size(130, 77);
+            this.play.Size = new System.Drawing.Size(137, 107);
             this.play.TabIndex = 20;
             this.play.UseVisualStyleBackColor = true;
             this.play.Click += new System.EventHandler(this.play_Click);
@@ -353,7 +353,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1354, 733);
+            this.ClientSize = new System.Drawing.Size(1354, 763);
             this.Controls.Add(this.interstellarPictureBox);
             this.Controls.Add(this.plasticBeachPictureBox);
             this.Controls.Add(this.buttonCreatePDF);
