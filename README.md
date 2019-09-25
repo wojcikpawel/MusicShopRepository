@@ -77,3 +77,4 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * https://cezarywalenciuk.pl/blog/programing/post/reportviewer-tworzenie-pliku-pdf-w-c
 * Converter Audio - https://online-audio-converter.com/pl/
 * Converter PDF - https://www.freepdfconvert.com/pl
+* Download Missing DLL Files - https://www.dll-files.com/
