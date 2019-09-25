@@ -857,6 +857,8 @@ namespace MusicShopUI
             Visible = true;
         }
         */
+
+
         private void MusicShop_Load(object sender, EventArgs e)
         {
            
