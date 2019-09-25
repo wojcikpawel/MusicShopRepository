@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MusicShopLibrary
 {
-    //tak naprawdę to każdy album ma listę utworów!!!! 
-    //a każdy utwór ma numer co do kolejności, tytuł, długość, nazwa wykonawcy, rok (takie wlasciwosci przychodza mi do głowy)
+    //Każdy album ma listę utworów
+    //a każdy utwór ma numer co do kolejności, tytuł, długość, nazwa wykonawcy, rok
     public class Song
     {
         public int Number { get; set; }

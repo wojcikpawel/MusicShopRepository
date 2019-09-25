@@ -136,7 +136,7 @@
             this.makePurchase.Name = "makePurchase";
             this.makePurchase.Size = new System.Drawing.Size(138, 50);
             this.makePurchase.TabIndex = 6;
-            this.makePurchase.Text = "Purchase";
+            this.makePurchase.Text = "Buy Now";
             this.makePurchase.UseVisualStyleBackColor = false;
             this.makePurchase.Click += new System.EventHandler(this.makePurchase_Click);
             // 

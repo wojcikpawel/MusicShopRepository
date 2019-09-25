@@ -724,13 +724,9 @@ namespace MusicShopUI
                             player.URL = @"C:\Users\Paweł Wójcik\Music\Hans Zimmer - Interstellar (2014)\12.I'm Going Home.mp3";
                             player.controls.play();
                         }
-                       
-
                         break;
-
-
-                    
                 }
+
             }catch(NullReferenceException ex)
             {
                 MessageBox.Show(ex.Message);
