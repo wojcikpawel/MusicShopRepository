@@ -99,7 +99,7 @@
             // 
             this.AddToCart.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.AddToCart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AddToCart.Location = new System.Drawing.Point(393, 107);
+            this.AddToCart.Location = new System.Drawing.Point(384, 108);
             this.AddToCart.Name = "AddToCart";
             this.AddToCart.Size = new System.Drawing.Size(138, 50);
             this.AddToCart.TabIndex = 3;
@@ -185,7 +185,7 @@
             // 
             this.backToStore.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.backToStore.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.backToStore.Location = new System.Drawing.Point(393, 163);
+            this.backToStore.Location = new System.Drawing.Point(384, 164);
             this.backToStore.Name = "backToStore";
             this.backToStore.Size = new System.Drawing.Size(138, 50);
             this.backToStore.TabIndex = 11;
@@ -250,7 +250,7 @@
             // 
             this.buttonCreatePDF.BackColor = System.Drawing.Color.Gray;
             this.buttonCreatePDF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonCreatePDF.Location = new System.Drawing.Point(393, 219);
+            this.buttonCreatePDF.Location = new System.Drawing.Point(384, 220);
             this.buttonCreatePDF.Name = "buttonCreatePDF";
             this.buttonCreatePDF.Size = new System.Drawing.Size(138, 50);
             this.buttonCreatePDF.TabIndex = 26;

@@ -841,7 +841,7 @@ namespace MusicShopUI
 
 
             //make sound effect of button 'Export'
-            SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\export.wav");
+            SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndExportToPdf.wav");
             splayer.Play();
             MessageBox.Show("The PDF file was created successfully!");
            
