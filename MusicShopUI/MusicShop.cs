@@ -13,6 +13,8 @@ using WMPLib;
 using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+
+using System.Media;
 namespace MusicShopUI
 {
     public partial class MusicShop : Form
@@ -233,7 +235,11 @@ namespace MusicShopUI
                 makePurchase.Enabled = false;
             }
             artistsListbox.ClearSelected();
-            
+
+            //make sound effect of button 'Add'
+            SoundPlayer splayer = new SoundPlayer(@"C:\Users\Paweł Wójcik\source\repos\wojcikpawel\MusicShopRepository\Resources\sndAddToCart.wave");
+            splayer.Play();
+
         }
 
         private void BackToStore_Click(object sender, EventArgs e)
