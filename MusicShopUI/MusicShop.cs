@@ -843,11 +843,12 @@ namespace MusicShopUI
                 MessageBox.Show(ex.Message);
             }
 
-            MessageBox.Show("The PDF file was created successfully!");
-            
-         
-            
 
+            //make sound effect of button 'Export'
+            SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\export.wav");
+            splayer.Play();
+            MessageBox.Show("The PDF file was created successfully!");
+           
         }
 
         /*
