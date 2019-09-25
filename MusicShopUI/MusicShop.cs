@@ -844,9 +844,6 @@ namespace MusicShopUI
             SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndExportToPdf.wav");
             splayer.Play();
             MessageBox.Show("The PDF file was created successfully!");
-
-
-           
         }
 
         /*
