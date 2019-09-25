@@ -57,6 +57,11 @@ Packages Manager for .NET - NuGet:
 ```sh
 C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ```
+* .wav file path:
+```sh
+@"C:\Users\User\MusicShopRepository-master\Resources\sndAddToCart.wav"
+```
+
 * .NET components:
   * listbox
   * button
