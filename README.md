@@ -78,11 +78,11 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * If You have .dll file on desktop You can add reference clicking PPM on References -> Add Reference...
   
 ## Useful libraries and sides
-* http://www.csharpopensource.com
-* http://www.xmlpdf.com/dotnetcore.html
+* C# Open-Source - http://www.csharpopensource.com
+* NuGet Package Manager - http://www.xmlpdf.com/dotnetcore.html
 * RDLC
-* CodeProject
-* https://cezarywalenciuk.pl/blog/programing/post/reportviewer-tworzenie-pliku-pdf-w-c
+* CodeProject - https://www.codeproject.com/Articles/81118/ITextSharp-Helper-Class
+* Report Viewer - https://cezarywalenciuk.pl/blog/programing/post/reportviewer-tworzenie-pliku-pdf-w-c
 * Converter Audio - https://online-audio-converter.com/pl/
 * Converter PDF - https://www.freepdfconvert.com/pl
 * Download Missing DLL Files - https://www.dll-files.com/
