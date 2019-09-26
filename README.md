@@ -85,6 +85,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Report Viewer - https://cezarywalenciuk.pl/blog/programing/post/reportviewer-tworzenie-pliku-pdf-w-c
 * Converter Audio - https://online-audio-converter.com/pl/
 * Converter PDF - https://www.freepdfconvert.com/pl
+* Converter PDF - https://smallpdf.com/pl/pdf-do-word
 * Download Missing DLL Files - https://www.dll-files.com/
 * The Complete Open-Source and Business Software Platform - https://sourceforge.net/
 * OpenGL.Net.WinForms v.0.8.4 - https://www.nuget.org/packages/OpenGL.Net.WinForms/
