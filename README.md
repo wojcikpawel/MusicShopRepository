@@ -13,7 +13,7 @@
 Virtual music shop with simple music player as a desktop application.
 
 ## Screenshots
-![musicShopPicture](./Images/musicShop.jpg)
+![musicShopPicture](./Images/musicShop2.jpg)
 ![musicShopPicture2](./Images/musicShopPdf.jpg)
 
 ## Technologies
@@ -61,7 +61,10 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ```sh
 @"C:\Users\User\MusicShopRepository-master\Resources\sndAddToCart.wav"
 ```
+* .mp3 file path:
+```sh
 
+```
 * .NET components:
   * listbox
   * button
@@ -75,11 +78,18 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * If You have .dll file on desktop You can add reference clicking PPM on References -> Add Reference...
   
 ## Useful libraries and sides
-* http://www.csharpopensource.com
-* http://www.xmlpdf.com/dotnetcore.html
+* C# Open-Source - http://www.csharpopensource.com
+* NuGet Package Manager - http://www.xmlpdf.com/dotnetcore.html
 * RDLC
-* CodeProject
-* https://cezarywalenciuk.pl/blog/programing/post/reportviewer-tworzenie-pliku-pdf-w-c
+* CodeProject - https://www.codeproject.com/Articles/81118/ITextSharp-Helper-Class
+* Report Viewer - https://cezarywalenciuk.pl/blog/programing/post/reportviewer-tworzenie-pliku-pdf-w-c
 * Converter Audio - https://online-audio-converter.com/pl/
 * Converter PDF - https://www.freepdfconvert.com/pl
+* Converter PDF - https://smallpdf.com/pl/pdf-do-word
 * Download Missing DLL Files - https://www.dll-files.com/
+* The Complete Open-Source and Business Software Platform - https://sourceforge.net/
+* OpenGL.Net.WinForms v.0.8.4 - https://www.nuget.org/packages/OpenGL.Net.WinForms/
+* Web Compression graphic files:
+  * https://imagecompressor.com/pl/
+  * https://tinypng.com/
+  * https://compresspng.com/pl/
