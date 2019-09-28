@@ -55,6 +55,7 @@
             this.trojkatwarszawskiPictureBox = new System.Windows.Forms.PictureBox();
             this.stop = new System.Windows.Forms.Button();
             this.play = new System.Windows.Forms.Button();
+            this.nextWindowFormBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.interstellarPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.plasticBeachPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zletowarzystwoPictureBox)).BeginInit();
@@ -132,7 +133,7 @@
             // 
             this.makePurchase.BackColor = System.Drawing.Color.LightGreen;
             this.makePurchase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.makePurchase.Location = new System.Drawing.Point(754, 298);
+            this.makePurchase.Location = new System.Drawing.Point(559, 298);
             this.makePurchase.Name = "makePurchase";
             this.makePurchase.Size = new System.Drawing.Size(138, 50);
             this.makePurchase.TabIndex = 6;
@@ -349,11 +350,24 @@
             this.play.UseVisualStyleBackColor = true;
             this.play.Click += new System.EventHandler(this.play_Click);
             // 
+            // nextWindowFormBtn
+            // 
+            this.nextWindowFormBtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.nextWindowFormBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nextWindowFormBtn.Location = new System.Drawing.Point(754, 298);
+            this.nextWindowFormBtn.Name = "nextWindowFormBtn";
+            this.nextWindowFormBtn.Size = new System.Drawing.Size(138, 50);
+            this.nextWindowFormBtn.TabIndex = 35;
+            this.nextWindowFormBtn.Text = "Next ->";
+            this.nextWindowFormBtn.UseVisualStyleBackColor = false;
+            this.nextWindowFormBtn.Click += new System.EventHandler(this.nextWindowFormBtn_Click);
+            // 
             // MusicShop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1354, 763);
+            this.Controls.Add(this.nextWindowFormBtn);
             this.Controls.Add(this.interstellarPictureBox);
             this.Controls.Add(this.plasticBeachPictureBox);
             this.Controls.Add(this.buttonCreatePDF);
@@ -427,5 +441,6 @@
         private System.Windows.Forms.Button buttonCreatePDF;
         private System.Windows.Forms.PictureBox plasticBeachPictureBox;
         private System.Windows.Forms.PictureBox interstellarPictureBox;
+        private System.Windows.Forms.Button nextWindowFormBtn;
     }
 }

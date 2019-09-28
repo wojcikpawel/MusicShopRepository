@@ -34,7 +34,7 @@ namespace MusicShopUI
 
         private decimal storeProfit = 0;
         private int numberus;
-        public  Form2 form2 = new Form2();
+        //public  Playlist form2 = new Playlist();
         WindowsMediaPlayer player = new WindowsMediaPlayer();
         
         //konstruktor
@@ -859,6 +859,19 @@ namespace MusicShopUI
         private void MusicShop_Load(object sender, EventArgs e)
         {
            
+        }
+
+        private void nextWindowFormBtn_Click(object sender, EventArgs e)
+        {
+            //Form1 windowform1 = new Form1();
+            //this.Hide();
+            // Playlist windowformPlaylist = new Playlist();
+            // windowformPlaylist.Show();
+
+            //this.Hide();//też działa
+            Visible = false;
+            PlaylistForm playlistform = new PlaylistForm();
+            playlistform.Show();
         }
     }
 }
