@@ -97,3 +97,4 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Microsoft .NET Framework 4.8 - https://docs.microsoft.com/pl-pl/dotnet/api/?view=netframework-4.8  
 * Microsoft .NET Framework 4.8 - System.Windows.Forms Namespace - https://docs.microsoft.com/pl-pl/dotnet/api/system.windows.forms?view=netframework-4.8
 * Dot Net Perls: C# Pages - https://www.dotnetperls.com/
+* net-informations.com - http://csharp.net-informations.com/gui/cs-listbox.htm
