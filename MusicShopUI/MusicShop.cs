@@ -75,6 +75,7 @@ namespace MusicShopUI
             */
             backToStore.Enabled = false;
             makePurchase.Enabled = false;
+            buttonCreatePDF.Enabled = false;
             artistsListbox.ClearSelected();
         }
 
@@ -241,6 +242,11 @@ namespace MusicShopUI
                 makePurchase.Enabled = false;
             }
             artistsListbox.ClearSelected();
+
+            if(purchasedAlbumsData.Count !=0)
+            {
+                buttonCreatePDF.Enabled = true;
+            }
 
             //make sound effect of button 'Purchase'
             SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndPurchase.wav");

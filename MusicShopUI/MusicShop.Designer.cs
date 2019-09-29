@@ -56,6 +56,8 @@
             this.trojkatwarszawskiPictureBox = new System.Windows.Forms.PictureBox();
             this.stop = new System.Windows.Forms.Button();
             this.play = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.interstellarPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.plasticBeachPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zletowarzystwoPictureBox)).BeginInit();
@@ -169,10 +171,10 @@
             this.purchasedAlbumsListbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.purchasedAlbumsListbox.FormattingEnabled = true;
             this.purchasedAlbumsListbox.ItemHeight = 20;
-            this.purchasedAlbumsListbox.Location = new System.Drawing.Point(22, 370);
+            this.purchasedAlbumsListbox.Location = new System.Drawing.Point(5, 38);
             this.purchasedAlbumsListbox.Margin = new System.Windows.Forms.Padding(2);
             this.purchasedAlbumsListbox.Name = "purchasedAlbumsListbox";
-            this.purchasedAlbumsListbox.Size = new System.Drawing.Size(333, 184);
+            this.purchasedAlbumsListbox.Size = new System.Drawing.Size(333, 264);
             this.purchasedAlbumsListbox.TabIndex = 13;
             this.purchasedAlbumsListbox.SelectedIndexChanged += new System.EventHandler(this.purchasedAlbumsListbox_SelectedIndexChanged);
             // 
@@ -199,13 +201,14 @@
             // 
             // buttonCreatePDF
             // 
-            this.buttonCreatePDF.BackColor = System.Drawing.Color.Gray;
+            this.buttonCreatePDF.BackColor = System.Drawing.Color.White;
+            this.buttonCreatePDF.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCreatePDF.BackgroundImage")));
+            this.buttonCreatePDF.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonCreatePDF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonCreatePDF.Location = new System.Drawing.Point(384, 220);
+            this.buttonCreatePDF.Location = new System.Drawing.Point(17, 644);
             this.buttonCreatePDF.Name = "buttonCreatePDF";
-            this.buttonCreatePDF.Size = new System.Drawing.Size(138, 50);
+            this.buttonCreatePDF.Size = new System.Drawing.Size(110, 113);
             this.buttonCreatePDF.TabIndex = 26;
-            this.buttonCreatePDF.Text = "Export .pdf";
             this.buttonCreatePDF.UseVisualStyleBackColor = false;
             this.buttonCreatePDF.Click += new System.EventHandler(this.buttonCreatePDF_Click);
             // 
@@ -233,10 +236,11 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.purchasedAlbumsListbox);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox2.Location = new System.Drawing.Point(12, 332);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(349, 233);
+            this.groupBox2.Size = new System.Drawing.Size(349, 306);
             this.groupBox2.TabIndex = 37;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Your Albums";
@@ -362,11 +366,24 @@
             this.play.UseVisualStyleBackColor = true;
             this.play.Click += new System.EventHandler(this.play_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(240, 644);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 113);
+            this.button1.TabIndex = 41;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // MusicShop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1354, 763);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.nextWindowFormBtn);
             this.Controls.Add(this.interstellarPictureBox);
             this.Controls.Add(this.plasticBeachPictureBox);
@@ -379,7 +396,6 @@
             this.Controls.Add(this.play);
             this.Controls.Add(this.playlistListBox);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.purchasedAlbumsListbox);
             this.Controls.Add(this.backToStore);
             this.Controls.Add(this.storeProfitValue);
             this.Controls.Add(this.storeProfitLabel);
@@ -402,6 +418,7 @@
             this.Name = "MusicShop";
             this.Text = "Music Shop";
             this.Load += new System.EventHandler(this.MusicShop_Load);
+            this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.interstellarPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.plasticBeachPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zletowarzystwoPictureBox)).EndInit();
@@ -442,5 +459,6 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button button1;
     }
 }
