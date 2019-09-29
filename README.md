@@ -100,3 +100,4 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Dot Net Perls: C# Pages - https://www.dotnetperls.com/
 * net-informations.com - http://csharp.net-informations.com/gui/cs-listbox.htm
 * IconArchive - http://www.iconarchive.com/
+* FlatIcon - https://www.flaticon.com/
