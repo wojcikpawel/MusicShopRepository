@@ -875,7 +875,14 @@ namespace MusicShopUI
                     doc.Close();
                     stream.Close();
                 }
+                //make sound effect of button 'Export'
+                SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndExportToPdf.wav");
+                splayer.Play();
+                //MessageBox information (text, caption, buttons, icon)
+                MessageBox.Show("The PDF file was created successfully!", "Information", 0, MessageBoxIcon.Information);
+
             }
+
 
             try
             {
@@ -887,12 +894,7 @@ namespace MusicShopUI
                 MessageBox.Show(ex.Message);
             }
 
-            //make sound effect of button 'Export'
-            SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndExportToPdf.wav");
-            splayer.Play();
-            //MessageBox information (text, caption, buttons, icon)
-            MessageBox.Show("The PDF file was created successfully!", "Information", 0, MessageBoxIcon.Information);
-            
+      
         }
 
         /*
