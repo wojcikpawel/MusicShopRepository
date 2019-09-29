@@ -798,9 +798,9 @@ namespace MusicShopUI
             // FontFactory.RegisterDirectory(@"C:\font");
             // FontFactory.GetFont("arial");
 
-            
 
-            
+
+
             //BaseFont base = BaseFont.createFont(BaseFont.TIMES_ROMAN, BaseFont.CP1250, BaseFont.EMBEDDED);
             //Font myFont = new Font(base, 16, Font.NORMAL);
             //cell = new PdfPCell(new Phrase("Śćźół:", myFont));
@@ -832,13 +832,13 @@ namespace MusicShopUI
             */
 
             //doc.Add(para1);
-          
-            
+
+
             //create SaveDialog
             var safeFileDialog = new SaveFileDialog();
             safeFileDialog.FileName = "albums";
             safeFileDialog.DefaultExt = ".pdf";
-            if(safeFileDialog.ShowDialog() == DialogResult.OK)
+            if (safeFileDialog.ShowDialog() == DialogResult.OK)
             {
                 using (FileStream stream = new FileStream(safeFileDialog.FileName, FileMode.Create))
                 {
@@ -862,7 +862,7 @@ namespace MusicShopUI
                     //doc.Close();
                     // FontFactory.RegisterDirectory(@"C:\font");
                     // FontFactory.GetFont("arial");
-                    
+
                     foreach (string item in purchasedAlbumsListbox.Items)
                     {
                         BaseFont czcionkaDoKonwertowania = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, BaseFont.CACHED);
@@ -870,7 +870,7 @@ namespace MusicShopUI
                         Paragraph paragraffff = new Paragraph(item, f);
                         doc.Add(paragraffff);
                     }
-                    
+
                     //closing document pdf very important
                     doc.Close();
                     stream.Close();
@@ -890,11 +890,9 @@ namespace MusicShopUI
             //make sound effect of button 'Export'
             SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndExportToPdf.wav");
             splayer.Play();
-            MessageBox.Show("The PDF file was created successfully!");
-
+            //MessageBox information (text, caption, buttons, icon)
+            MessageBox.Show("The PDF file was created successfully!", "Information", 0, MessageBoxIcon.Information);
             
-            
-
         }
 
         /*
