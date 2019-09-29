@@ -34,7 +34,7 @@ namespace MusicShopUI
 
         private decimal storeProfit = 0;
         private int numberus;
-        //public  Playlist form2 = new Playlist();
+        public  PlaylistForm playlistform = new PlaylistForm();
         WindowsMediaPlayer player = new WindowsMediaPlayer();
         
         //konstruktor
@@ -213,15 +213,17 @@ namespace MusicShopUI
                 storeProfit += (1 - (decimal)i.Performer.Comission) * i.Price;
                 purchasedAlbumsData.Add(i);
 
-               //form2.purchasedAlbumsListboxTest.Items.Add(i.ShowToPurchasedAlbums);
-               //form2.purchasedAlbumsListboxTest.Items.Add(i.ShowStoreAlbums);
-                
-               purchasedAlbumsListbox.Items.Add(i.ShowToPurchasedAlbums);
-               
+                //form2.purchasedAlbumsListboxTest.Items.Add(i.ShowToPurchasedAlbums);
+                //form2.purchasedAlbumsListboxTest.Items.Add(i.ShowStoreAlbums);
+                //playlistform.purchasedAlbumsListboxTest.Items.Add(i.ShowToPurchasedAlbums);
+                //playlistform.purchasedAlbumsListboxTest.Items.Add(i.ShowStoreAlbums);
+
+                purchasedAlbumsListbox.Items.Add(i.ShowToPurchasedAlbums);
+
             }
             //wyslanie zakupionych albumow do drugiej listy PurchasedAlbumsListbox
             //tutaj chcialem zeby wszystkie elementy z koszyka przechodzily na raz a nie pojedynczo zaznaczone
-            
+
             purchasedAlbumsBinding.ResetBindings(false);
             shoppingCartData.Clear();
 

@@ -38,6 +38,7 @@
             this.playlistListBox = new System.Windows.Forms.ListBox();
             this.zletowarzystwoPictureBox = new System.Windows.Forms.PictureBox();
             this.purchasedAlbumsListboxTest = new System.Windows.Forms.ListBox();
+            this.headerText = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.zletowarzystwoPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,11 +141,23 @@
             this.purchasedAlbumsListboxTest.Size = new System.Drawing.Size(333, 324);
             this.purchasedAlbumsListboxTest.TabIndex = 31;
             // 
+            // headerText
+            // 
+            this.headerText.AutoSize = true;
+            this.headerText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.headerText.Location = new System.Drawing.Point(549, 9);
+            this.headerText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.headerText.Name = "headerText";
+            this.headerText.Size = new System.Drawing.Size(208, 37);
+            this.headerText.TabIndex = 37;
+            this.headerText.Text = "Your Playlist";
+            // 
             // PlaylistForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1320, 544);
+            this.Controls.Add(this.headerText);
             this.Controls.Add(this.stop);
             this.Controls.Add(this.play);
             this.Controls.Add(this.playlistListBoxLabel);
@@ -175,5 +188,6 @@
         private System.Windows.Forms.ListBox playlistListBox;
         private System.Windows.Forms.PictureBox zletowarzystwoPictureBox;
         public System.Windows.Forms.ListBox purchasedAlbumsListboxTest;
+        private System.Windows.Forms.Label headerText;
     }
 }

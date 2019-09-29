@@ -31,20 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MusicShop));
             this.headerText = new System.Windows.Forms.Label();
             this.albumsListbox = new System.Windows.Forms.ListBox();
-            this.albumsListboxLabel = new System.Windows.Forms.Label();
             this.AddToCart = new System.Windows.Forms.Button();
-            this.shoppingCartListboxLabel = new System.Windows.Forms.Label();
             this.shoppingCartListbox = new System.Windows.Forms.ListBox();
             this.makePurchase = new System.Windows.Forms.Button();
-            this.artistListboxLabel = new System.Windows.Forms.Label();
             this.artistsListbox = new System.Windows.Forms.ListBox();
             this.storeProfitLabel = new System.Windows.Forms.Label();
             this.storeProfitValue = new System.Windows.Forms.Label();
             this.backToStore = new System.Windows.Forms.Button();
-            this.purchasedAlbumsListboxLabel = new System.Windows.Forms.Label();
             this.purchasedAlbumsListbox = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.playlistListBoxLabel = new System.Windows.Forms.Label();
             this.playlistListBox = new System.Windows.Forms.ListBox();
             this.buttonCreatePDF = new System.Windows.Forms.Button();
             this.interstellarPictureBox = new System.Windows.Forms.PictureBox();
@@ -56,6 +51,11 @@
             this.stop = new System.Windows.Forms.Button();
             this.play = new System.Windows.Forms.Button();
             this.nextWindowFormBtn = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.interstellarPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.plasticBeachPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zletowarzystwoPictureBox)).BeginInit();
@@ -86,16 +86,6 @@
             this.albumsListbox.Size = new System.Drawing.Size(333, 204);
             this.albumsListbox.TabIndex = 1;
             // 
-            // albumsListboxLabel
-            // 
-            this.albumsListboxLabel.AutoSize = true;
-            this.albumsListboxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.albumsListboxLabel.Location = new System.Drawing.Point(18, 67);
-            this.albumsListboxLabel.Name = "albumsListboxLabel";
-            this.albumsListboxLabel.Size = new System.Drawing.Size(117, 20);
-            this.albumsListboxLabel.TabIndex = 2;
-            this.albumsListboxLabel.Text = "Store Albums";
-            // 
             // AddToCart
             // 
             this.AddToCart.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -107,16 +97,6 @@
             this.AddToCart.Text = "Add ->";
             this.AddToCart.UseVisualStyleBackColor = false;
             this.AddToCart.Click += new System.EventHandler(this.AddToCart_Click);
-            // 
-            // shoppingCartListboxLabel
-            // 
-            this.shoppingCartListboxLabel.AutoSize = true;
-            this.shoppingCartListboxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.shoppingCartListboxLabel.Location = new System.Drawing.Point(555, 67);
-            this.shoppingCartListboxLabel.Name = "shoppingCartListboxLabel";
-            this.shoppingCartListboxLabel.Size = new System.Drawing.Size(124, 20);
-            this.shoppingCartListboxLabel.TabIndex = 5;
-            this.shoppingCartListboxLabel.Text = "Shopping Cart";
             // 
             // shoppingCartListbox
             // 
@@ -133,23 +113,13 @@
             // 
             this.makePurchase.BackColor = System.Drawing.Color.LightGreen;
             this.makePurchase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.makePurchase.Location = new System.Drawing.Point(559, 298);
+            this.makePurchase.Location = new System.Drawing.Point(559, 309);
             this.makePurchase.Name = "makePurchase";
             this.makePurchase.Size = new System.Drawing.Size(138, 50);
             this.makePurchase.TabIndex = 6;
             this.makePurchase.Text = "Buy Now";
             this.makePurchase.UseVisualStyleBackColor = false;
             this.makePurchase.Click += new System.EventHandler(this.makePurchase_Click);
-            // 
-            // artistListboxLabel
-            // 
-            this.artistListboxLabel.AutoSize = true;
-            this.artistListboxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.artistListboxLabel.Location = new System.Drawing.Point(936, 67);
-            this.artistListboxLabel.Name = "artistListboxLabel";
-            this.artistListboxLabel.Size = new System.Drawing.Size(61, 20);
-            this.artistListboxLabel.TabIndex = 8;
-            this.artistListboxLabel.Text = "Artists";
             // 
             // artistsListbox
             // 
@@ -166,7 +136,7 @@
             // 
             this.storeProfitLabel.AutoSize = true;
             this.storeProfitLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.storeProfitLabel.Location = new System.Drawing.Point(1016, 313);
+            this.storeProfitLabel.Location = new System.Drawing.Point(1111, 313);
             this.storeProfitLabel.Name = "storeProfitLabel";
             this.storeProfitLabel.Size = new System.Drawing.Size(111, 20);
             this.storeProfitLabel.TabIndex = 9;
@@ -176,7 +146,7 @@
             // 
             this.storeProfitValue.AutoSize = true;
             this.storeProfitValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.storeProfitValue.Location = new System.Drawing.Point(1123, 313);
+            this.storeProfitValue.Location = new System.Drawing.Point(1217, 313);
             this.storeProfitValue.Name = "storeProfitValue";
             this.storeProfitValue.Size = new System.Drawing.Size(82, 20);
             this.storeProfitValue.TabIndex = 10;
@@ -194,16 +164,6 @@
             this.backToStore.UseVisualStyleBackColor = false;
             this.backToStore.Click += new System.EventHandler(this.BackToStore_Click);
             // 
-            // purchasedAlbumsListboxLabel
-            // 
-            this.purchasedAlbumsListboxLabel.AutoSize = true;
-            this.purchasedAlbumsListboxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.purchasedAlbumsListboxLabel.Location = new System.Drawing.Point(18, 348);
-            this.purchasedAlbumsListboxLabel.Name = "purchasedAlbumsListboxLabel";
-            this.purchasedAlbumsListboxLabel.Size = new System.Drawing.Size(158, 20);
-            this.purchasedAlbumsListboxLabel.TabIndex = 14;
-            this.purchasedAlbumsListboxLabel.Text = "Purchased Albums";
-            // 
             // purchasedAlbumsListbox
             // 
             this.purchasedAlbumsListbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -212,7 +172,7 @@
             this.purchasedAlbumsListbox.Location = new System.Drawing.Point(22, 370);
             this.purchasedAlbumsListbox.Margin = new System.Windows.Forms.Padding(2);
             this.purchasedAlbumsListbox.Name = "purchasedAlbumsListbox";
-            this.purchasedAlbumsListbox.Size = new System.Drawing.Size(333, 164);
+            this.purchasedAlbumsListbox.Size = new System.Drawing.Size(333, 184);
             this.purchasedAlbumsListbox.TabIndex = 13;
             this.purchasedAlbumsListbox.SelectedIndexChanged += new System.EventHandler(this.purchasedAlbumsListbox_SelectedIndexChanged);
             // 
@@ -225,16 +185,6 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Visible = false;
-            // 
-            // playlistListBoxLabel
-            // 
-            this.playlistListBoxLabel.AutoSize = true;
-            this.playlistListBoxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.playlistListBoxLabel.Location = new System.Drawing.Point(936, 348);
-            this.playlistListBoxLabel.Name = "playlistListBoxLabel";
-            this.playlistListBoxLabel.Size = new System.Drawing.Size(65, 20);
-            this.playlistListBoxLabel.TabIndex = 19;
-            this.playlistListBoxLabel.Text = "Playlist";
             // 
             // playlistListBox
             // 
@@ -354,13 +304,63 @@
             // 
             this.nextWindowFormBtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.nextWindowFormBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.nextWindowFormBtn.Location = new System.Drawing.Point(754, 298);
+            this.nextWindowFormBtn.Location = new System.Drawing.Point(754, 309);
             this.nextWindowFormBtn.Name = "nextWindowFormBtn";
             this.nextWindowFormBtn.Size = new System.Drawing.Size(138, 50);
             this.nextWindowFormBtn.TabIndex = 35;
             this.nextWindowFormBtn.Text = "Next ->";
             this.nextWindowFormBtn.UseVisualStyleBackColor = false;
             this.nextWindowFormBtn.Click += new System.EventHandler(this.nextWindowFormBtn_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.Location = new System.Drawing.Point(12, 53);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(349, 250);
+            this.groupBox1.TabIndex = 36;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Store Albums";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.Location = new System.Drawing.Point(12, 332);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(349, 233);
+            this.groupBox2.TabIndex = 37;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Your Albums";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox3.Location = new System.Drawing.Point(550, 53);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(348, 250);
+            this.groupBox3.TabIndex = 38;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Shopping Cart";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox4.Location = new System.Drawing.Point(931, 53);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(386, 250);
+            this.groupBox4.TabIndex = 39;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Artists";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox5.Location = new System.Drawing.Point(931, 336);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(419, 302);
+            this.groupBox5.TabIndex = 40;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Your Playlist";
             // 
             // MusicShop
             // 
@@ -377,23 +377,23 @@
             this.Controls.Add(this.trojkatwarszawskiPictureBox);
             this.Controls.Add(this.stop);
             this.Controls.Add(this.play);
-            this.Controls.Add(this.playlistListBoxLabel);
             this.Controls.Add(this.playlistListBox);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.purchasedAlbumsListboxLabel);
             this.Controls.Add(this.purchasedAlbumsListbox);
             this.Controls.Add(this.backToStore);
             this.Controls.Add(this.storeProfitValue);
             this.Controls.Add(this.storeProfitLabel);
-            this.Controls.Add(this.artistListboxLabel);
             this.Controls.Add(this.artistsListbox);
             this.Controls.Add(this.makePurchase);
-            this.Controls.Add(this.shoppingCartListboxLabel);
             this.Controls.Add(this.shoppingCartListbox);
             this.Controls.Add(this.AddToCart);
-            this.Controls.Add(this.albumsListboxLabel);
             this.Controls.Add(this.albumsListbox);
             this.Controls.Add(this.headerText);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox5);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -417,20 +417,15 @@
 
         private System.Windows.Forms.Label headerText;
         private System.Windows.Forms.ListBox albumsListbox;
-        private System.Windows.Forms.Label albumsListboxLabel;
         private System.Windows.Forms.Button AddToCart;
-        private System.Windows.Forms.Label shoppingCartListboxLabel;
         private System.Windows.Forms.ListBox shoppingCartListbox;
         private System.Windows.Forms.Button makePurchase;
-        private System.Windows.Forms.Label artistListboxLabel;
         private System.Windows.Forms.ListBox artistsListbox;
         private System.Windows.Forms.Label storeProfitLabel;
         private System.Windows.Forms.Label storeProfitValue;
         private System.Windows.Forms.Button backToStore;
-        private System.Windows.Forms.Label purchasedAlbumsListboxLabel;
         public System.Windows.Forms.ListBox purchasedAlbumsListbox;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label playlistListBoxLabel;
         private System.Windows.Forms.ListBox playlistListBox;
         private System.Windows.Forms.Button play;
         private System.Windows.Forms.Button stop;
@@ -442,5 +437,10 @@
         private System.Windows.Forms.PictureBox plasticBeachPictureBox;
         private System.Windows.Forms.PictureBox interstellarPictureBox;
         private System.Windows.Forms.Button nextWindowFormBtn;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox groupBox5;
     }
 }
