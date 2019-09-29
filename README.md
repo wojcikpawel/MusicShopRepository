@@ -66,10 +66,11 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 
 ```
 * .NET components:
-  * listbox
-  * button
-  * picturebox
-  * label
+  * ListBox
+  * Button
+  * PictureBox
+  * Label
+  * GroupBox
   
 * How to use NuGet:
   * Tools -> NuGet Package Manager -> Package Manager Console
