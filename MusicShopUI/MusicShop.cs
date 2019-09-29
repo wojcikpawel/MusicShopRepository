@@ -40,7 +40,7 @@ namespace MusicShopUI
         //konstruktor
         public MusicShop()
         {
-            
+            //test comment
             InitializeComponent();
             SetupData();
 
