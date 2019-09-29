@@ -14,6 +14,8 @@ using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 
+
+
 using System.Media;
 namespace MusicShopUI
 {
@@ -777,10 +779,10 @@ namespace MusicShopUI
             doc.Close();
             */
 
-            Document doc = new Document(iTextSharp.text.PageSize.LETTER, 10, 10, 42, 35);
-           
-            PdfWriter wri = PdfWriter.GetInstance(doc, new FileStream("Albums.pdf", FileMode.Create));
-            doc.Open();
+            //odkomentować1// Document doc = new Document(iTextSharp.text.PageSize.LETTER, 10, 10, 42, 35);
+
+            //odkomentować2// PdfWriter wri = PdfWriter.GetInstance(doc, new FileStream("Albums.pdf", FileMode.Create));
+            //odkomentować3// doc.Open();
 
             //Sposób 1
 
@@ -789,22 +791,16 @@ namespace MusicShopUI
             // Paragraph para1 = new Paragraph("This is my kurde first line of paragraph! zażółć gęslą jaźń", f);
 
 
-            BaseFont czciosnkaKonwert = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, BaseFont.CACHED);
-            iTextSharp.text.Font font = new iTextSharp.text.Font(czciosnkaKonwert, 28);
-            Paragraph para2 = new Paragraph("Your list of albums purchased: ", font);
-             doc.Add(para2);
+            //odkomentować4// BaseFont czciosnkaKonwert = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, BaseFont.CACHED);
+            //odkomentować5// iTextSharp.text.Font font = new iTextSharp.text.Font(czciosnkaKonwert, 28);
+            //odkomentować6// Paragraph para2 = new Paragraph("Your list of albums purchased: ", font);
+            //odkomentować7// doc.Add(para2);
             // FontFactory.RegisterDirectory(@"C:\font");
             // FontFactory.GetFont("arial");
 
-            foreach (string item in purchasedAlbumsListbox.Items)
-            {
-                BaseFont czcionkaDoKonwertowania = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, BaseFont.CACHED);
-                iTextSharp.text.Font f = new iTextSharp.text.Font(czcionkaDoKonwertowania, 20);
-                Paragraph paragraffff = new Paragraph(item,f);
-                doc.Add(paragraffff);
-            }
             
 
+            
             //BaseFont base = BaseFont.createFont(BaseFont.TIMES_ROMAN, BaseFont.CP1250, BaseFont.EMBEDDED);
             //Font myFont = new Font(base, 16, Font.NORMAL);
             //cell = new PdfPCell(new Phrase("Śćźół:", myFont));
@@ -837,21 +833,68 @@ namespace MusicShopUI
 
             //doc.Add(para1);
           
-            try
+            
+            //create SaveDialog
+            var safeFileDialog = new SaveFileDialog();
+            safeFileDialog.FileName = "albums";
+            safeFileDialog.DefaultExt = ".pdf";
+            if(safeFileDialog.ShowDialog() == DialogResult.OK)
             {
-                doc.Close();
-            }
-               catch(IOException ex)
-            {
-             
-                MessageBox.Show(ex.Message);
+                using (FileStream stream = new FileStream(safeFileDialog.FileName, FileMode.Create))
+                {
+                    Document doc = new Document(iTextSharp.text.PageSize.LETTER, 10, 10, 42, 35);
+
+                    PdfWriter wri = PdfWriter.GetInstance(doc, stream);
+                    //opening document pdf very important
+                    doc.Open();
+
+                    //Sposób 1
+
+                    // BaseFont czcionkaDoKonwertowania = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250 ,BaseFont.CACHED);
+                    // iTextSharp.text.Font f = new iTextSharp.text.Font(czcionkaDoKonwertowania, 72);
+                    // Paragraph para1 = new Paragraph("This is my kurde first line of paragraph! zażółć gęslą jaźń", f);
+
+
+                    BaseFont czciosnkaKonwert = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, BaseFont.CACHED);
+                    iTextSharp.text.Font font = new iTextSharp.text.Font(czciosnkaKonwert, 28);
+                    Paragraph para2 = new Paragraph("Your list of albums purchased: ", font);
+                    doc.Add(para2);
+                    //doc.Close();
+                    // FontFactory.RegisterDirectory(@"C:\font");
+                    // FontFactory.GetFont("arial");
+                    
+                    foreach (string item in purchasedAlbumsListbox.Items)
+                    {
+                        BaseFont czcionkaDoKonwertowania = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, BaseFont.CACHED);
+                        iTextSharp.text.Font f = new iTextSharp.text.Font(czcionkaDoKonwertowania, 20);
+                        Paragraph paragraffff = new Paragraph(item, f);
+                        doc.Add(paragraffff);
+                    }
+                    
+                    //closing document pdf very important
+                    doc.Close();
+                    stream.Close();
+                }
             }
 
+            try
+            {
+                //doc.Close();
+            }
+            catch (IOException ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
 
             //make sound effect of button 'Export'
             SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndExportToPdf.wav");
             splayer.Play();
             MessageBox.Show("The PDF file was created successfully!");
+
+            
+            
+
         }
 
         /*
