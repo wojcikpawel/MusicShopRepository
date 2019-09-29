@@ -73,46 +73,6 @@ namespace MusicShopUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mediaPlay {
-            get {
-                object obj = ResourceManager.GetObject("mediaPlay", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap mediaPlay1 {
-            get {
-                object obj = ResourceManager.GetObject("mediaPlay1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap mediaStop {
-            get {
-                object obj = ResourceManager.GetObject("mediaStop", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap mediaStop1 {
-            get {
-                object obj = ResourceManager.GetObject("mediaStop1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap monochromy {
             get {
                 object obj = ResourceManager.GetObject("monochromy", resourceCulture);
@@ -133,9 +93,9 @@ namespace MusicShopUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap play {
+        internal static System.Drawing.Bitmap playBtn {
             get {
-                object obj = ResourceManager.GetObject("play", resourceCulture);
+                object obj = ResourceManager.GetObject("playBtn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,19 +103,9 @@ namespace MusicShopUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap play2 {
+        internal static System.Drawing.Bitmap stopBtn {
             get {
-                object obj = ResourceManager.GetObject("play2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap play3 {
-            get {
-                object obj = ResourceManager.GetObject("play3", resourceCulture);
+                object obj = ResourceManager.GetObject("stopBtn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

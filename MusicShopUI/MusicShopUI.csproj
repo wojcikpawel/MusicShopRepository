@@ -197,13 +197,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\hint.ico" />
-    <Content Include="Resources\play.jpg" />
-    <Content Include="Resources\play2.jpg" />
-    <Content Include="Resources\play3.jpg" />
-    <None Include="Resources\mediaPlay1.jpg" />
-    <None Include="Resources\mediaStop1.jpg" />
-    <None Include="Resources\mediaStop.jpg" />
-    <None Include="Resources\mediaPlay.jpg" />
+    <None Include="Resources\stopBtn.png" />
+    <None Include="Resources\playBtn.png" />
     <None Include="Resources\interstellar.jpg" />
     <None Include="Resources\plastic_beach.jpg" />
   </ItemGroup>

@@ -42,6 +42,12 @@
             this.button2 = new System.Windows.Forms.Button();
             this.playlistListBox = new System.Windows.Forms.ListBox();
             this.buttonCreatePDF = new System.Windows.Forms.Button();
+            this.nextWindowFormBtn = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.interstellarPictureBox = new System.Windows.Forms.PictureBox();
             this.plasticBeachPictureBox = new System.Windows.Forms.PictureBox();
             this.zletowarzystwoPictureBox = new System.Windows.Forms.PictureBox();
@@ -50,12 +56,6 @@
             this.trojkatwarszawskiPictureBox = new System.Windows.Forms.PictureBox();
             this.stop = new System.Windows.Forms.Button();
             this.play = new System.Windows.Forms.Button();
-            this.nextWindowFormBtn = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.interstellarPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.plasticBeachPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zletowarzystwoPictureBox)).BeginInit();
@@ -209,6 +209,68 @@
             this.buttonCreatePDF.UseVisualStyleBackColor = false;
             this.buttonCreatePDF.Click += new System.EventHandler(this.buttonCreatePDF_Click);
             // 
+            // nextWindowFormBtn
+            // 
+            this.nextWindowFormBtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.nextWindowFormBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nextWindowFormBtn.Location = new System.Drawing.Point(754, 309);
+            this.nextWindowFormBtn.Name = "nextWindowFormBtn";
+            this.nextWindowFormBtn.Size = new System.Drawing.Size(138, 50);
+            this.nextWindowFormBtn.TabIndex = 35;
+            this.nextWindowFormBtn.Text = "Next ->";
+            this.nextWindowFormBtn.UseVisualStyleBackColor = false;
+            this.nextWindowFormBtn.Click += new System.EventHandler(this.nextWindowFormBtn_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.Location = new System.Drawing.Point(12, 53);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(349, 250);
+            this.groupBox1.TabIndex = 36;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Store Albums";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.Location = new System.Drawing.Point(12, 332);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(349, 233);
+            this.groupBox2.TabIndex = 37;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Your Albums";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox3.Location = new System.Drawing.Point(550, 53);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(348, 250);
+            this.groupBox3.TabIndex = 38;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Shopping Cart";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox4.Location = new System.Drawing.Point(931, 53);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(386, 250);
+            this.groupBox4.TabIndex = 39;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Artists";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox5.Location = new System.Drawing.Point(931, 336);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(419, 302);
+            this.groupBox5.TabIndex = 40;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Your Playlist";
+            // 
             // interstellarPictureBox
             // 
             this.interstellarPictureBox.Image = global::MusicShopUI.Properties.Resources.interstellar;
@@ -277,7 +339,7 @@
             // 
             // stop
             // 
-            this.stop.BackgroundImage = global::MusicShopUI.Properties.Resources.mediaStop1;
+            this.stop.BackgroundImage = global::MusicShopUI.Properties.Resources.stopBtn;
             this.stop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.stop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.stop.Location = new System.Drawing.Point(1202, 644);
@@ -289,7 +351,7 @@
             // 
             // play
             // 
-            this.play.BackgroundImage = global::MusicShopUI.Properties.Resources.mediaPlay1;
+            this.play.BackgroundImage = global::MusicShopUI.Properties.Resources.playBtn;
             this.play.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.play.Cursor = System.Windows.Forms.Cursors.Default;
             this.play.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -299,68 +361,6 @@
             this.play.TabIndex = 20;
             this.play.UseVisualStyleBackColor = true;
             this.play.Click += new System.EventHandler(this.play_Click);
-            // 
-            // nextWindowFormBtn
-            // 
-            this.nextWindowFormBtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.nextWindowFormBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.nextWindowFormBtn.Location = new System.Drawing.Point(754, 309);
-            this.nextWindowFormBtn.Name = "nextWindowFormBtn";
-            this.nextWindowFormBtn.Size = new System.Drawing.Size(138, 50);
-            this.nextWindowFormBtn.TabIndex = 35;
-            this.nextWindowFormBtn.Text = "Next ->";
-            this.nextWindowFormBtn.UseVisualStyleBackColor = false;
-            this.nextWindowFormBtn.Click += new System.EventHandler(this.nextWindowFormBtn_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox1.Location = new System.Drawing.Point(12, 53);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(349, 250);
-            this.groupBox1.TabIndex = 36;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Store Albums";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox2.Location = new System.Drawing.Point(12, 332);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(349, 233);
-            this.groupBox2.TabIndex = 37;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Your Albums";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox3.Location = new System.Drawing.Point(550, 53);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(348, 250);
-            this.groupBox3.TabIndex = 38;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Shopping Cart";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox4.Location = new System.Drawing.Point(931, 53);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(386, 250);
-            this.groupBox4.TabIndex = 39;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Artists";
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBox5.Location = new System.Drawing.Point(931, 336);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(419, 302);
-            this.groupBox5.TabIndex = 40;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Your Playlist";
             // 
             // MusicShop
             // 
