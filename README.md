@@ -109,6 +109,11 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Amazon Web Services - https://aws.amazon.com/
   * Google Cloud - https://cloud.google.com/
   
- * Apache HTTP Server - http://httpd.apache.org/
- * Apache Tomcat - https://tomcat.apache.org/
- * Architectural Pattern - Model-View-Controller
+* Apache HTTP Server - http://httpd.apache.org/
+* Apache Tomcat - https://tomcat.apache.org/
+* Architectural Patterns: 
+  * Model-View-Controller
+  * Model-View-View-Model
+* Design Patterns:
+  * Singleton
+  * Builder
