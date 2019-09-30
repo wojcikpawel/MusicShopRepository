@@ -120,3 +120,5 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Design Patterns:
   * Singleton
   * Builder
+  
+* Tymaczasowy Testowe Adres Mejlowy - https://10minut.xyz/
