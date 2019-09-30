@@ -109,6 +109,8 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Microsoft Azure - Platform as a Service - https://azure.microsoft.com/pl-pl/
   * Amazon Web Services - https://aws.amazon.com/
   * Google Cloud - https://cloud.google.com/
+* Telerik - https://www.telerik.com/
+* Telerik UI for WinForms - https://www.telerik.com/products/winforms.aspx
   
 * Apache HTTP Server - http://httpd.apache.org/
 * Apache Tomcat - https://tomcat.apache.org/
