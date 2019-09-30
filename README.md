@@ -111,3 +111,4 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   
  * Apache HTTP Server - http://httpd.apache.org/
  * Apache Tomcat - https://tomcat.apache.org/
+ * Architectural Pattern - Model-View-Controller
