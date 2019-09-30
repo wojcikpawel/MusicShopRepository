@@ -112,6 +112,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Telerik - https://www.telerik.com/
 * Telerik UI for WinForms - https://www.telerik.com/products/winforms.aspx
 * Telerik UI Documentation - https://www.telerik.com/documentation?utm_source=tci
+* Telerik UI Demos - https://www.telerik.com/support/demos?utm_source=tci
   
 * Apache HTTP Server - http://httpd.apache.org/
 * Apache Tomcat - https://tomcat.apache.org/
