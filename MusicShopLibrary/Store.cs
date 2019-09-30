@@ -37,7 +37,8 @@ namespace MusicShopLibrary
         {
             Imie = "JANUSZ KOWALSKI";
             Artists = new List<Artist>();//inicjacja listy obiektow Artists
-            Albums = new List<Album>();//inicjacja listy obiektow Albums   
+            Albums = new List<Album>();//inicjacja listy obiektow Albums
+            //empty comment
         }
     }
 }
