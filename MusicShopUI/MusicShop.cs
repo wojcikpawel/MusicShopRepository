@@ -188,6 +188,7 @@ namespace MusicShopUI
         private void AddToCart_Click(object sender, EventArgs e)
         {
             Album selectedAlbum = (Album)albumsListbox.SelectedItem;
+            
             shoppingCartData.Add(selectedAlbum);//dodanie do listy zaznaczonego elementu
             albumsBinding.Remove(selectedAlbum);
 
@@ -203,7 +204,7 @@ namespace MusicShopUI
             }
 
             //make sound effect of button 'Add'
-            SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndAddToCart.wav");
+            SoundPlayer splayer = new SoundPlayer(@"C:\MusicShopRepository\Resources\sndAddToCart.wav");
             splayer.Play();
         }
 
@@ -251,7 +252,7 @@ namespace MusicShopUI
             }
 
             //make sound effect of button 'Purchase'
-            SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndPurchase.wav");
+            SoundPlayer splayer = new SoundPlayer(@"C:\MusicShopRepository\Resources\sndPurchase.wav");
             splayer.Play();
 
         }
@@ -276,14 +277,14 @@ namespace MusicShopUI
                 makePurchase.Enabled = false;
             }
 
-            Album selectedAlbum = (Album)shoppingCartListbox.SelectedItem;
+            Album selectedAlbum = (Album)shoppingCartListbox.SelectedItem;            
             store.Albums.Add(selectedAlbum);
             cartBinding.Remove(selectedAlbum);
 
             albumsBinding.ResetBindings(false);
 
             //make sound effect of button 'Back'
-            SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndBackToStore.wav");
+            SoundPlayer splayer = new SoundPlayer(@"C:\MusicShopRepository\Resources\sndBackToStore.wav");
             splayer.Play();
         }
 
@@ -876,7 +877,7 @@ namespace MusicShopUI
                     stream.Close();
                 }
                 //make sound effect of button 'Export'
-                SoundPlayer splayer = new SoundPlayer(@"C:\Repos\wojcikpawel\MusicShopRepository\Resources\sndExportToPdf.wav");
+                SoundPlayer splayer = new SoundPlayer(@"C:\MusicShopRepository\Resources\sndExportToPdf.wav");
                 splayer.Play();
                 //MessageBox information (text, caption, buttons, icon)
                 MessageBox.Show("The PDF file was created successfully!", "Information", 0, MessageBoxIcon.Information);
