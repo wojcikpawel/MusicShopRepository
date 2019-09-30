@@ -111,6 +111,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Google Cloud - https://cloud.google.com/
 * Telerik - https://www.telerik.com/
 * Telerik UI for WinForms - https://www.telerik.com/products/winforms.aspx
+* Telerik Documentation - https://docs.telerik.com/devtools/xamarin/introduction
   
 * Apache HTTP Server - http://httpd.apache.org/
 * Apache Tomcat - https://tomcat.apache.org/
