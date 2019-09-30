@@ -121,4 +121,4 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Singleton
   * Builder
   
-* Tymczasowy Testowy Adres Mejlowy - https://10minut.xyz/
+* Tymczasowy Testowy Adres Mejlowy - https://10minut.xyz/ - https://10minutemail.net/
