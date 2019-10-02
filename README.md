@@ -125,4 +125,5 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Builder
   
 * Tymczasowy Testowy Adres Mejlowy - https://10minut.xyz/ - https://10minutemail.net/
-* DoxyGen - http://www.doxygen.nl/index.html
+* Documentation:
+   * DoxyGen - http://www.doxygen.nl/index.html
