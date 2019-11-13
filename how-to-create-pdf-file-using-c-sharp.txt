@@ -1,3 +1,4 @@
+Instruction:
 1. Download package iTextsharp from https://sourceforge.net/projects/itextsharp/?source=typ_redirect
 2. Three .dll files copy to project folder .../bin/obj/properties
 3. Add references to project
