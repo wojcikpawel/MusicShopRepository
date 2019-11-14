@@ -133,5 +133,5 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ## Work Team:
 
 * Communication - Slack - Link
-* Version Control System - Git - Link
+* Version Control System - Git - https://github.com/wojcikpawel/MusicShopRepository.git
 * Project Management - Trello - Link
