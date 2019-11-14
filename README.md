@@ -114,6 +114,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Telerik UI for WinForms - https://www.telerik.com/products/winforms.aspx
 * Telerik UI Documentation - https://www.telerik.com/documentation?utm_source=tci
 * Telerik UI Demos - https://www.telerik.com/support/demos?utm_source=tci
+* Nie wiesz jakie to rozszerzenie pliku i jak go otworzyć? Sprawdź tutaj - https://www.reviversoft.com/pl/file-extensions
   
 * Apache HTTP Server - http://httpd.apache.org/
 * Apache Tomcat - https://tomcat.apache.org/
