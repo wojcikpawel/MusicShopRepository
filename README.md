@@ -128,3 +128,10 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Tymczasowy Testowy Adres Mejlowy - https://10minut.xyz/ - https://10minutemail.net/
 * Documentation:
    * DoxyGen - http://www.doxygen.nl/index.html
+   
+   
+## Work Team:
+
+* Communication - Slack - Link
+* Version Control System - Git - Link
+* Project Management - Trello - Link
