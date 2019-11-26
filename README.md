@@ -9,7 +9,7 @@
 * [Library](#library)
 * [Additional](#additional)
 
-## General info
+## General Info
 Virtual music shop with simple music player as a desktop application.
 
 ## Screenshots
