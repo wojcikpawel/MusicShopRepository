@@ -1,6 +1,6 @@
 # Music Shop Application - Desktop - Windows Forms
 
-## Table of contents
+## Table of Contents
 * [General Info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
@@ -80,7 +80,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Check packages.config file
   * If You have .dll file on desktop You can add reference clicking PPM on References -> Add Reference...
   
-## Useful libraries and sides
+## Useful Libraries and Websides
 * C# Open-Source - http://www.csharpopensource.com
 * NuGet Package Manager - http://www.xmlpdf.com/dotnetcore.html
 * RDLC
