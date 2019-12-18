@@ -101,9 +101,6 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Microsoft .NET Framework 4.8 - System.Windows.Forms Namespace - https://docs.microsoft.com/pl-pl/dotnet/api/system.windows.forms?view=netframework-4.8
 * Dot Net Perls: C# Pages - https://www.dotnetperls.com/
 * net-informations.com - http://csharp.net-informations.com/gui/cs-listbox.htm
-* IconArchive - http://www.iconarchive.com/
-* FlatIcon - https://www.flaticon.com/
-* icon8.com - https://icons8.com/
 * Pastebin - https://pastebin.com/
 * Cloud Application Platform:
   * Heroku - Platform as a Service - https://www.heroku.com/
@@ -115,6 +112,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Telerik UI Documentation - https://www.telerik.com/documentation?utm_source=tci
 * Telerik UI Demos - https://www.telerik.com/support/demos?utm_source=tci
 * Nie wiesz jakie to rozszerzenie pliku i jak go otworzyć? Sprawdź tutaj - https://www.reviversoft.com/pl/file-extensions
+* Color - Hex: - https://www.color-hex.com/color/191919
   
 * Apache HTTP Server - http://httpd.apache.org/
 * Apache Tomcat - https://tomcat.apache.org/
@@ -135,3 +133,10 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Communication - Slack - https://slack.com/intl/en-pl/
 * Version Control System - Git - https://github.com/wojcikpawel/MusicShopRepository.git
 * Project Management - Trello - https://trello.com/
+
+## Icons:
+* IconArchive - http://www.iconarchive.com/
+* FlatIcon - https://www.flaticon.com/
+* icon8.com - https://icons8.com/
+* W3schools.com Icons Tutorial - https://www.w3schools.com/icons/default.asp
+* Material Design - Icons - https://material.io/resources/icons/?style=baseline
