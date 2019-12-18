@@ -140,3 +140,4 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * icon8.com - https://icons8.com/
 * W3schools.com Icons Tutorial - https://www.w3schools.com/icons/default.asp
 * Material Design - Icons - https://material.io/resources/icons/?style=baseline
+* Vector Stock - https://www.vectorstock.com/
