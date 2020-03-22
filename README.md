@@ -159,3 +159,12 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * W3schools.com Icons Tutorial - https://www.w3schools.com/icons/default.asp
 * Material Design - Icons - https://material.io/resources/icons/?style=baseline
 * Vector Stock - https://www.vectorstock.com/
+
+Paweł Wójcik &copy;
+
+
+This application was created by **Paweł Wójcik** <br />
+> **Google Play:** https://www.google.pl/ <br />
+> **Apple Store:** https://www.google.pl/ <br />
+> **Expo:** https://www.google.pl/ <br />
+
