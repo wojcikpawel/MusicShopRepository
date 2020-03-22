@@ -1,6 +1,6 @@
 # Music Shop Application - Desktop - Windows Forms
-<a href="https://play.google.com/store/apps/details?id=com.webStrong.maker" target="_blank"><img src="http://webstrong.pl/templates/google_play_pl.png" width="150"/></a>
-<a href="https://apps.apple.com/us/app/maker-todo-list/id1502811101" target="_blank"><img src="http://webstrong.pl/templates/apple_store_pl.png" width="150"/></a>
+<a href="https://www.google.pl" target="_blank"><img src="http://webstrong.pl/templates/google_play_pl.png" width="150"/></a>
+<a href="https://www.google.pl/" target="_blank"><img src="http://webstrong.pl/templates/apple_store_pl.png" width="150"/></a>
 
 
 <p align="center"><img src="https://github.com/wojcikpawel/MusicShopRepository/blob/master/Images/screenshot.jpg" width="850px" /></p>
