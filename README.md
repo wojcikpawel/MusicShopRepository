@@ -1,4 +1,6 @@
 # Music Shop Application - Desktop - Windows Forms
+<img src="http://webstrong.pl/templates/google_play_pl.png" width="150"/></a>
+<img src="http://webstrong.pl/templates/apple_store_pl.png" width="150"/>
 
 ## Table of Contents
 * [General Info](#general-info)
