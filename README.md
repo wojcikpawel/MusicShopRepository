@@ -23,10 +23,12 @@ Virtual music shop with simple music player as a desktop application.
 
 ## Technologies
 Project is created with:
-* C# - version 8.0
-* Windows Forms - version 2.1.3
-* Visual Studio - version 14.0.25422.01 Update 3 2015 Community
-* .NET Framework - version 4.8
+
+<i></i>
+* C# - <i>version 8.0</i>
+* Windows Forms - <i>version 2.1.3</i>
+* Visual Studio - <i>version 14.0.25422.01 Update 3 2015 Community</i>
+* .NET Framework - <i>version 4.8</i>
 
 
 
