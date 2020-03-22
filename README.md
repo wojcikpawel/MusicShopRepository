@@ -1,6 +1,9 @@
 # Music Shop Application - Desktop - Windows Forms
-<img src="http://webstrong.pl/templates/google_play_pl.png" width="150"/></a>
-<img src="http://webstrong.pl/templates/apple_store_pl.png" width="150"/>
+<a href="https://play.google.com/store/apps/details?id=com.webStrong.maker" target="_blank"><img src="http://webstrong.pl/templates/google_play_pl.png" width="150"/></a>
+<a href="https://apps.apple.com/us/app/maker-todo-list/id1502811101" target="_blank"><img src="http://webstrong.pl/templates/apple_store_pl.png" width="150"/></a>
+
+
+<p align="center"><img src="https://github.com/wojcikpawel/MusicShopRepository/blob/master/Images/screenshot.jpg" width="850px" /></p>
 
 ## Table of Contents
 * [General Info](#general-info)
@@ -25,9 +28,22 @@ Project is created with:
 * Visual Studio - version 14.0.25422.01 Update 3 2015 Community
 * .NET Framework - version 4.8
 
+
+
+<p align="center"><img src="https://github.com/wojcikpawel/MusicShopRepository/blob/master/Images/csharp.jpg" width="250px" /></p>
+
+
+<p align="center"><img src="https://github.com/wojcikpawel/MusicShopRepository/blob/master/Images/wfPicture.jpg" width="250px" /></p>
+
+
+<p align="center"><img src="https://github.com/wojcikpawel/MusicShopRepository/blob/master/Images/vsPicture.jpg" width="250px" /></p>
+
+<!-- 
 ![csharp](./Images/csharp.jpg)
 ![wfPicture](./Images/wfPicture.jpg)
 ![vsPicture](./Images/vsPicture.jpg)
+-->
+
 
 ## Features
 * playing .mp3 files
