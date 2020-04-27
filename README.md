@@ -1,7 +1,7 @@
 # Music Shop Application - Desktop - Windows Forms
-<a href="https://www.google.pl" target="_blank">
+<a href="https://play.google.com/store?hl=pl" target="_blank">
 <img src="https://github.com/wojcikpawel/MusicShopRepository/blob/master/Images/google_play_pl.jpg" width="150"/></a>
-<a href="https://www.google.pl/" target="_blank">
+<a href="https://www.apple.com/pl/ios/app-store/" target="_blank">
 <img src="https://github.com/wojcikpawel/MusicShopRepository/blob/master/Images/apple_store_pl.jpg" width="150"/></a>
 
 
