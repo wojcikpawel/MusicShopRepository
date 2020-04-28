@@ -150,8 +150,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
    * DoxyGen - http://www.doxygen.nl/index.html
    
 * Wyświetlenie PDFów w WindowsForms - https://www.facebook.com/groups/net.developers.poland/permalink/1518005951714088/ | https://docs.microsoft.com/pl-pl/dotnet/api/system.windows.forms.webbrowser?view=netcore-3.1 | https://docs.microsoft.com/pl-pl/dotnet/api/system.windows.forms.webbrowser.navigate?view=netcore-3.1
-* Open Source PDF library for Java and .NET - https://pdfclown.org/?fbclid=IwAR1vH1EVfgG-90qiP-wuv4mFWju56G8K8jchIGKU-zE89NP16Adoiohazak
-   
+* Open Source PDF library for Java and .NET - https://pdfclown.org/
 ## Team Work:
 
 * Communication - Slack - https://slack.com/intl/en-pl/
