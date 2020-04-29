@@ -148,6 +148,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Tymczasowy Testowy Adres Mejlowy - https://10minut.xyz/ - https://10minutemail.net/
 * Documentation:
    * DoxyGen - http://www.doxygen.nl/index.html
+   * Javadoc - https://www.oracle.com/technetwork/java/javase/documentation/index-137483.html#findjavadoc
    
 * Wyświetlenie PDFów w WindowsForms - https://www.facebook.com/groups/net.developers.poland/permalink/1518005951714088/ | https://docs.microsoft.com/pl-pl/dotnet/api/system.windows.forms.webbrowser?view=netcore-3.1 | https://docs.microsoft.com/pl-pl/dotnet/api/system.windows.forms.webbrowser.navigate?view=netcore-3.1
 * Open Source PDF library for Java and .NET - https://pdfclown.org/
