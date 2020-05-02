@@ -174,3 +174,5 @@ This application was created by **Paweł Wójcik** <br />
 > **Apple Store:** https://www.google.pl/ <br />
 > **Expo:** https://www.google.pl/ <br />
 
+## Inspiration:
+This app is inspired by TimCorey https://www.iamtimcorey.com/
