@@ -127,8 +127,12 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Cloud Application Platform:
   * Heroku - Platform as a Service - https://www.heroku.com/
   * Microsoft Azure - Platform as a Service - https://azure.microsoft.com/pl-pl/
+  * Internet Information Services
   * Amazon Web Services - https://aws.amazon.com/
   * Google Cloud - https://cloud.google.com/
+  * nginx - https://www.nginx.com/
+  * Apache - https://httpd.apache.org/
+  * Apache Tomcat - http://tomcat.apache.org/
 * Telerik - https://www.telerik.com/
 * Telerik UI for WinForms - https://www.telerik.com/products/winforms.aspx
 * Telerik UI Documentation - https://www.telerik.com/documentation?utm_source=tci
