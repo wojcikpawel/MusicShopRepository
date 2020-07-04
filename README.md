@@ -110,6 +110,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * If You have .dll file on desktop You can add reference clicking PPM on References -> Add Reference...
   
 ## Useful Libraries and Websides
+* Emojipedia - https://emojipedia.org/television/
 * C# Open-Source - http://www.csharpopensource.com
 * NuGet Package Manager - http://www.xmlpdf.com/dotnetcore.html
 * RDLC
