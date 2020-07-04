@@ -7,7 +7,7 @@
 
 <p align="center"><img src="https://github.com/wojcikpawel/MusicShopRepository/blob/master/Images/screenshot.jpg" width="850px" /></p>
 
-## Table of Contents
+## Table of Contents 
 * [General Info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
@@ -16,19 +16,26 @@
 * [Library](#library)
 * [Additional](#additional)
 
-## General Info
+## General Info 🎉
 Virtual music shop with simple music player as a desktop application.
 
-## Screenshots
+## Screenshots 📺
 ![musicShopPicture](./Images/screenshot.jpg)
 ![musicShopPicture2](./Images/musicShopPdf.jpg)
 
-## Technologies
+## Technologies 🔧
 Project is created with:
 
+| Tech                                                    | Version                                  |
+| ------------------------------------------------------- | ---------------------------------------- |
+| C#                                                      | <i>8.0</i>   |
+| Windows Forms                                           | <i>2.1.3</i>    |
+| Visual Studio                                           | <i>14.0.25422.01 Update 3 2015 Community</i>    |
+| .NET Framework                                          | <i>4.8</i>    |
+
 <i></i>
-* C# - <i>version 8.0</i>
-* Windows Forms - <i>version 2.1.3</i>
+* C# - <i>version </i>
+* Windows Forms - <i>version </i>
 * Visual Studio - <i>version 14.0.25422.01 Update 3 2015 Community</i>
 * .NET Framework - <i>version 4.8</i>
 
@@ -58,7 +65,7 @@ Project is created with:
 * Open Visual Studio
 * Click Start
 
-## Library
+## Library 🔍
 Packages Manager for .NET - NuGet:
 * [itextsharp.xtra.dll](https://www.nuget.org/packages/itextsharp.xtra/)
 * [itextsharp.pdfa.dll](https://www.nuget.org/packages/itextsharp.pdfa/)
@@ -180,5 +187,5 @@ This application was created by **Paweł Wójcik** <br />
 > **Apple Store:** https://www.google.pl/ <br />
 > **Expo:** https://www.google.pl/ <br />
 
-## Inspiration:
+## Inspiration 🔱
 This app is inspired by TimCorey: https://www.iamtimcorey.com/
