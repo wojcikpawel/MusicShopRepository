@@ -179,6 +179,10 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * W3schools.com Icons Tutorial - https://www.w3schools.com/icons/default.asp
 * Material Design - Icons - https://material.io/resources/icons/?style=baseline
 * Vector Stock - https://www.vectorstock.com/
+* Iconmonstr - https://iconmonstr.com/
+* Material Design Icons - https://materialdesignicons.com/
+* Find Icons - https://findicons.com/
+* Icon Finder - https://www.iconfinder.com/
 
 Paweł Wójcik &copy;
 
