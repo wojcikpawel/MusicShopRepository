@@ -19,6 +19,10 @@
 ## General Info 🎉
 Virtual music shop with simple music player as a desktop application.
 
+-------
+[![NuGet Version](https://img.shields.io/nuget/v/LiczbyNaSlowaNET.dll.svg?style=flat)](www.google.pl) ![Build](https://api.travis-ci.org/przemekwa/LiczbyNaSlowaNET.svg?branch=master)  [![Join the chat at https://gitter.im/LiczbyNaSlowaNET/Lobby?source=orgpage](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/LiczbyNaSlowaNET/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+=================
+
 ## Screenshots 📺
 ![musicShopPicture](./Images/screenshot.jpg)
 ![musicShopPicture2](./Images/musicShopPdf.jpg)
