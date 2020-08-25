@@ -189,6 +189,9 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Icon Finder - https://www.iconfinder.com/
 * Emojipedia - https://emojipedia.org/television/ - tutaj znajdują się fajne emoji do wykorzystania
 
+## UI/UX Design:
+https://productvision.pl/2019/projektowanie-ux-ui-8-sposobow-na-to-jak-zaczac/
+
 Paweł Wójcik &copy;
 
 
