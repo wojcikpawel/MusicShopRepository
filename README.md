@@ -169,6 +169,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Wyświetlenie PDFów w WindowsForms - https://www.facebook.com/groups/net.developers.poland/permalink/1518005951714088/ | https://docs.microsoft.com/pl-pl/dotnet/api/system.windows.forms.webbrowser?view=netcore-3.1 | https://docs.microsoft.com/pl-pl/dotnet/api/system.windows.forms.webbrowser.navigate?view=netcore-3.1
 * Open Source PDF library for Java and .NET - https://pdfclown.org/
 * Download .NET SDKs for Visual Studio - https://dotnet.microsoft.com/download/visual-studio-sdks?utm_source=getdotnetsdk&utm_medium=referral
+* Wykresy w WPF C# - OxyPlot - https://perfectsoft.com.pl/baza-wiedzy/wykresy-w-wpf-csharp-oxyplot/ 
 
 ## Team Work:
 
