@@ -176,6 +176,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Communication - Slack - https://slack.com/intl/en-pl/
 * Version Control System - Git - https://github.com/wojcikpawel/MusicShopRepository.git
 * Project Management - Trello - https://trello.com/ - Vivify - https://www.vivifyscrum.com/
+* Docker - https://szkoladockera.pl/kurs-mailowy/?fbclid=IwAR3sHxdNySG18_PqsJSMkPjyG5pRsdaPngHFcznnOwXU6PPno76k_fXXuro
 
 ## Icons:
 * IconArchive - http://www.iconarchive.com/
