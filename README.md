@@ -161,7 +161,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Singleton
   * Builder
   
-* Tymczasowy Testowy Adres Mejlowy - https://10minut.xyz/ - https://10minutemail.net/
+* Tymczasowy Testowy Adres Mejlowy - https://10minut.xyz/ - https://10minutemail.net/ - https://10minemail.com/pl/
 * Documentation:
    * DoxyGen - http://www.doxygen.nl/index.html
    * Javadoc - https://www.oracle.com/technetwork/java/javase/documentation/index-137483.html#findjavadoc
