@@ -17,11 +17,16 @@ using iTextSharp.text.pdf;
 
 
 using System.Media;
+
+
+using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Spreadsheet;
 namespace MusicShopUI
 {
     public partial class MusicShop : Form
     {
-        
+
         private Store store = new Store();
         Album album = new Album();
         private List<Album> shoppingCartData = new List<Album>();
@@ -36,9 +41,9 @@ namespace MusicShopUI
 
         private decimal storeProfit = 0;
         private int numberus;
-        public  PlaylistForm playlistform = new PlaylistForm();
+        public PlaylistForm playlistform = new PlaylistForm();
         WindowsMediaPlayer player = new WindowsMediaPlayer();
-        
+
         //konstruktor
         public MusicShop()
         {
@@ -59,7 +64,7 @@ namespace MusicShopUI
 
             shoppingCartListbox.DisplayMember = "ShowStoreAlbums";
             shoppingCartListbox.ValueMember = "ShowStoreAlbums";
-            
+
             //linkowanie/bindowanie List<Artist> Artists z artistsListbox
             artistsBinding.DataSource = store.Artists;
             artistsListbox.DataSource = artistsBinding;
@@ -79,6 +84,11 @@ namespace MusicShopUI
             makePurchase.Enabled = false;
             buttonCreatePDF.Enabled = false;
             artistsListbox.ClearSelected();
+
+            //Zapisywanie pliku .xlsx zaraz po uruchomieniu aplikacji
+            Test test = new Test();
+            test.CreateExcelDoc(@"C:\MusicShopRepository\test2.xlsx");
+
         }
 
         public void SetupData()
@@ -93,12 +103,12 @@ namespace MusicShopUI
 
             // All Artists
             store.Artists.Add(new Artist { FirstName = "Filip", LastName = "Szcześniak", Alias = "Taco", Comission = .3 });
-            store.Artists.Add(new Artist { FirstName = "Michał", LastName = "Łaszkiewicz", Alias = "W.E.N.A.", Comission = .3});
+            store.Artists.Add(new Artist { FirstName = "Michał", LastName = "Łaszkiewicz", Alias = "W.E.N.A.", Comission = .3 });
 
-           // store.Artists.Add(new Artist { FirstName = "Dawid", LastName = "Podsiadło", Alias = "David Ross" });
+            // store.Artists.Add(new Artist { FirstName = "Dawid", LastName = "Podsiadło", Alias = "David Ross" });
 
-            store.Artists.Add(new Artist { FirstName = "Damon", LastName = "Albarn", Alias = "Gorillaz", Comission = .5});
-            store.Artists.Add(new Artist { FirstName = "Hans", LastName = "Zimmer", Alias = "Hans Zimmer", Comission = .5});
+            store.Artists.Add(new Artist { FirstName = "Damon", LastName = "Albarn", Alias = "Gorillaz", Comission = .5 });
+            store.Artists.Add(new Artist { FirstName = "Hans", LastName = "Zimmer", Alias = "Hans Zimmer", Comission = .5 });
 
             // All Albums
             store.Albums.Add(new Album { Performer = store.Artists[0], Title = "Young Hems", Price = 39.99M });
@@ -106,14 +116,14 @@ namespace MusicShopUI
             store.Albums.Add(new Album { Performer = store.Artists[1], Title = "Monochromy", Price = 39.99M });
             store.Albums.Add(new Album { Performer = store.Artists[1], Title = "Złe Towarzystwo", Price = 39.99M });
 
-           // store.Albums.Add(new Album { Performer = store.Artists[2], Title = "Małomiasteczkowy", Price = 59.99M });
+            // store.Albums.Add(new Album { Performer = store.Artists[2], Title = "Małomiasteczkowy", Price = 59.99M });
             store.Albums.Add(new Album { Performer = store.Artists[2], Title = "Plastic Beach", Price = 49.99M });
 
             store.Albums.Add(new Album { Performer = store.Artists[3], Title = "Interstellar", Price = 39.99M });
 
             // Young Hems playlist
-            album.YoungHemsPlaylist.Add(new Song { Number = 1, Title = "Fuck Your List", Lenght = new TimeSpan(0,03,21), PremiereYear = 2013 });
-            album.YoungHemsPlaylist.Add(new Song { Number = 2, Title = "Listening To Arctic Monkeys", Lenght = new TimeSpan(0,03,18), PremiereYear = 2013 });
+            album.YoungHemsPlaylist.Add(new Song { Number = 1, Title = "Fuck Your List", Lenght = new TimeSpan(0, 03, 21), PremiereYear = 2013 });
+            album.YoungHemsPlaylist.Add(new Song { Number = 2, Title = "Listening To Arctic Monkeys", Lenght = new TimeSpan(0, 03, 18), PremiereYear = 2013 });
             album.YoungHemsPlaylist.Add(new Song { Number = 3, Title = "22", Lenght = new TimeSpan(0, 01, 48), PremiereYear = 2013 });
             album.YoungHemsPlaylist.Add(new Song { Number = 4, Title = "Blueberries", Lenght = new TimeSpan(0, 03, 48), PremiereYear = 2013 });
             album.YoungHemsPlaylist.Add(new Song { Number = 5, Title = "Luck", Lenght = new TimeSpan(0, 02, 49), PremiereYear = 2013 });
@@ -122,8 +132,8 @@ namespace MusicShopUI
             album.YoungHemsPlaylist.Add(new Song { Number = 8, Title = "Chewbacca", Lenght = new TimeSpan(0, 04, 09), PremiereYear = 2013 });
 
             // Trójkąt Warszawski playlist
-            album.TrojkatWarszawskiPlaylist.Add(new Song { Number = 1, Title = "Szlugi i kalafiory", Lenght = new TimeSpan(0,03,06), PremiereYear = 2014 });
-            album.TrojkatWarszawskiPlaylist.Add(new Song { Number = 2, Title = "Marsz, marsz", Lenght = new TimeSpan(0,03,50), PremiereYear = 2014 });
+            album.TrojkatWarszawskiPlaylist.Add(new Song { Number = 1, Title = "Szlugi i kalafiory", Lenght = new TimeSpan(0, 03, 06), PremiereYear = 2014 });
+            album.TrojkatWarszawskiPlaylist.Add(new Song { Number = 2, Title = "Marsz, marsz", Lenght = new TimeSpan(0, 03, 50), PremiereYear = 2014 });
             album.TrojkatWarszawskiPlaylist.Add(new Song { Number = 3, Title = "Wszystko jedno", Lenght = new TimeSpan(0, 05, 10), PremiereYear = 2014 });
             album.TrojkatWarszawskiPlaylist.Add(new Song { Number = 4, Title = "Trójkąt", Lenght = new TimeSpan(0, 05, 26), PremiereYear = 2014 });
             album.TrojkatWarszawskiPlaylist.Add(new Song { Number = 5, Title = "(przerywnik)", Lenght = new TimeSpan(0, 02, 12), PremiereYear = 2014 });
@@ -151,8 +161,8 @@ namespace MusicShopUI
             //album.MalomiasteczkowyPlaylist.Add(new Song { Number = 3, Title = "Małomiasteczkowy", Lenght = new TimeSpan(0,04,01), PremiereYear = 2018 });
 
             // Plastic Beach playlist
-            album.PlasticBeachPlaylist.Add(new Song { Number = 1, Title = "Orchestral Intro", Lenght = new TimeSpan(0,01,09), PremiereYear = 2010 });
-            album.PlasticBeachPlaylist.Add(new Song { Number = 2, Title = "Welcome To The Plastic Beach", Lenght = new TimeSpan(0,03, 32), PremiereYear = 2010 });
+            album.PlasticBeachPlaylist.Add(new Song { Number = 1, Title = "Orchestral Intro", Lenght = new TimeSpan(0, 01, 09), PremiereYear = 2010 });
+            album.PlasticBeachPlaylist.Add(new Song { Number = 2, Title = "Welcome To The Plastic Beach", Lenght = new TimeSpan(0, 03, 32), PremiereYear = 2010 });
             album.PlasticBeachPlaylist.Add(new Song { Number = 3, Title = "White Flag", Lenght = new TimeSpan(0, 03, 41), PremiereYear = 2010 });
             album.PlasticBeachPlaylist.Add(new Song { Number = 4, Title = "Rhinestone Eyes", Lenght = new TimeSpan(0, 03, 18), PremiereYear = 2010 });
             album.PlasticBeachPlaylist.Add(new Song { Number = 5, Title = "Stylo", Lenght = new TimeSpan(0, 04, 30), PremiereYear = 2010 });
@@ -188,13 +198,13 @@ namespace MusicShopUI
         private void AddToCart_Click(object sender, EventArgs e)
         {
             Album selectedAlbum = (Album)albumsListbox.SelectedItem;
-            
+
             shoppingCartData.Add(selectedAlbum);//dodanie do listy zaznaczonego elementu
             albumsBinding.Remove(selectedAlbum);
 
             cartBinding.ResetBindings(false);
 
-            if(store.Albums.Count == 0) AddToCart.Enabled = false;
+            if (store.Albums.Count == 0) AddToCart.Enabled = false;
             //AKTYWOWANIE PRZYCISKU PURCHASE ORAZ BACK TO STORE
             //po nacisnieciu przycisku Add To Cart sprawdzam czy lista shoppingCartData jest pusta
             if (shoppingCartData.Count == 1)
@@ -246,7 +256,7 @@ namespace MusicShopUI
             }
             artistsListbox.ClearSelected();
 
-            if(purchasedAlbumsData.Count !=0)
+            if (purchasedAlbumsData.Count != 0)
             {
                 buttonCreatePDF.Enabled = true;
             }
@@ -271,13 +281,13 @@ namespace MusicShopUI
 
             //DEZAKTYWOWANIE PRZYCISKU BACK TO STORE ORAZ PURCHASE 
             //po nacisnieciu przycisku Back To Store sprawdzam czy lista shoppingCartData jest pusta
-            if(numberus == 0)
+            if (numberus == 0)
             {
                 backToStore.Enabled = false;
                 makePurchase.Enabled = false;
             }
 
-            Album selectedAlbum = (Album)shoppingCartListbox.SelectedItem;            
+            Album selectedAlbum = (Album)shoppingCartListbox.SelectedItem;
             store.Albums.Add(selectedAlbum);
             cartBinding.Remove(selectedAlbum);
 
@@ -291,7 +301,7 @@ namespace MusicShopUI
         private void purchasedAlbumsListbox_SelectedIndexChanged(object sender, EventArgs e)
         {
             //ToString bardzo pomocna metoda :))))
-            switch(purchasedAlbumsListbox.SelectedItem.ToString())
+            switch (purchasedAlbumsListbox.SelectedItem.ToString())
             {
                 case "Taco - Young Hems":
                     younghemsPictureBox.Visible = true;
@@ -357,24 +367,24 @@ namespace MusicShopUI
                     playlistListBox.ValueMember = "ShowPlaylistData";
                     playlistListBox.ClearSelected();//odznacza dany item w listboxie
                     break;
-                    /*
-                case "David Ross - Małomiasteczkowy":
-                    zletowarzystwoPictureBox.Visible = false;
-                    younghemsPictureBox.Visible = false;
-                    trojkatwarszawskiPictureBox.Visible = false;
-                    monochromyPictureBox.Visible = false;
-                    plasticBeachPictureBox.Visible = false;
-                    interstellarPictureBox.Visible = false;
+                /*
+            case "David Ross - Małomiasteczkowy":
+                zletowarzystwoPictureBox.Visible = false;
+                younghemsPictureBox.Visible = false;
+                trojkatwarszawskiPictureBox.Visible = false;
+                monochromyPictureBox.Visible = false;
+                plasticBeachPictureBox.Visible = false;
+                interstellarPictureBox.Visible = false;
 
-                    //linkowanie/bindowanie List<Song> ZleTowarzystwoPlaylist z playlistListbox
-                    playlistBinding.DataSource = album.MalomiasteczkowyPlaylist;
-                    playlistListBox.DataSource = playlistBinding;
+                //linkowanie/bindowanie List<Song> ZleTowarzystwoPlaylist z playlistListbox
+                playlistBinding.DataSource = album.MalomiasteczkowyPlaylist;
+                playlistListBox.DataSource = playlistBinding;
 
-                    playlistListBox.DisplayMember = "ShowPlaylistData";
-                    playlistListBox.ValueMember = "ShowPlaylistData";
-                    playlistListBox.ClearSelected();//odznacza dany item w listboxie
-                    break;
-                    */
+                playlistListBox.DisplayMember = "ShowPlaylistData";
+                playlistListBox.ValueMember = "ShowPlaylistData";
+                playlistListBox.ClearSelected();//odznacza dany item w listboxie
+                break;
+                */
                 case "Gorillaz - Plastic Beach":
                     plasticBeachPictureBox.Visible = true;
                     zletowarzystwoPictureBox.Visible = false;
@@ -382,7 +392,7 @@ namespace MusicShopUI
                     trojkatwarszawskiPictureBox.Visible = false;
                     monochromyPictureBox.Visible = false;
                     interstellarPictureBox.Visible = false;
- 
+
                     //linkowanie/bindowanie List<Song> ZleTowarzystwoPlaylist z playlistListbox
                     playlistBinding.DataSource = album.PlasticBeachPlaylist;
                     playlistListBox.DataSource = playlistBinding;
@@ -584,7 +594,7 @@ namespace MusicShopUI
                         break;
 
                     case "David Ross - Małomiasteczkowy":
-                        if(playlistListBox.SelectedIndex==0)
+                        if (playlistListBox.SelectedIndex == 0)
                         {
                             player.URL = @"C:\Users\Paweł Wójcik\Music\David Ross - Małomiasteczkowy - (2018)\3.Małomiasteczkowy.mp3";
                             player.controls.play();
@@ -592,7 +602,7 @@ namespace MusicShopUI
                         break;
 
                     case "Gorillaz - Plastic Beach":
-                        if(playlistListBox.SelectedIndex == 0)
+                        if (playlistListBox.SelectedIndex == 0)
                         {
                             player.URL = @"C:\Users\Paweł Wójcik\Music\Gorillaz - Plastic Beach - (2010)\1.Orchestral Intro.mp3";
                             player.controls.play();
@@ -738,12 +748,13 @@ namespace MusicShopUI
                         break;
                 }
 
-            }catch(NullReferenceException ex)
+            }
+            catch (NullReferenceException ex)
             {
                 MessageBox.Show(ex.Message);
                 MessageBox.Show("Brak utworów do odtworzenia");
             }
-            
+
             /*
             if(playlistListBox.Text == "1. Fuck Your List 2013")//jezeli zaznaczony jest taki string to graj taki utwór itd.
             {
@@ -895,8 +906,10 @@ namespace MusicShopUI
                 MessageBox.Show(ex.Message);
             }
 
-      
+
         }
+
+    
 
         /*
         private void button1_Click(object sender, EventArgs e)
@@ -910,7 +923,7 @@ namespace MusicShopUI
 
         private void MusicShop_Load(object sender, EventArgs e)
         {
-           
+
         }
 
         private void nextWindowFormBtn_Click(object sender, EventArgs e)
@@ -925,5 +938,82 @@ namespace MusicShopUI
             PlaylistForm playlistform = new PlaylistForm();
             playlistform.Show();
         }
+
+        
+        private void buttonCreateXLS_Click(object sender, EventArgs e)
+        {
+            /*
+            //create SaveDialog
+            var safeFileDialog = new SaveFileDialog();
+            safeFileDialog.FileName = "albums";
+            safeFileDialog.DefaultExt = ".xlsx";
+            if (safeFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                //Test test = new Test();
+                //test.CreateExcelDoc("albumsxls");
+                //Resource - tworzenie pliku excela
+                using (FileStream stream = new FileStream(safeFileDialog.FileName, FileMode.Create))
+                {
+                    SpreadsheetDocument document = SpreadsheetDocument.Create("pliczek", SpreadsheetDocumentType.Workbook);
+
+                    WorkbookPart workbookPart = document.AddWorkbookPart();
+                    workbookPart.Workbook = new Workbook();
+
+                    WorksheetPart worksheetPart = workbookPart.AddNewPart<WorksheetPart>();
+                    worksheetPart.Worksheet = new Worksheet();
+
+                    Sheets sheets = workbookPart.Workbook.AppendChild(new Sheets());
+
+                    Sheet sheet = new Sheet() { Id = workbookPart.GetIdOfPart(worksheetPart), SheetId = 1, Name = "Arkusz Pawełka" };
+                    sheets.Append(sheet);
+
+                    workbookPart.Workbook.Save();
+                    WritingToExcel(worksheetPart);
+
+                }
+            }
+            */
+        }
+        /*
+                 private static void WritingToExcel(WorksheetPart worksheetPart)
+                {
+            //zapis do pliku excel
+            SheetData sheetData = worksheetPart.Worksheet.AppendChild(new SheetData());
+
+            //wiersze i kolumny
+            Row row = new Row();
+            // Cell cell = new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String };
+            row.Append(new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String },
+                       new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String },
+                       new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String });
+
+
+
+            sheetData.AppendChild(row);
+
+            for (int i = 0; i < 20; i++)
+            {
+                //wiersze i kolumny
+                row = new Row();
+                // Cell cell = new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String };
+                row.Append(new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+                           new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String },
+                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+                           new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String });
+
+                sheetData.AppendChild(row);
+            }
+
+            worksheetPart.Worksheet.Save();
+
+
+
+        }
+         */
     }
-}
+    }      
