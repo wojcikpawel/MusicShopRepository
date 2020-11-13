@@ -79,6 +79,7 @@ Packages Manager for .NET - NuGet:
 * [PdfSharp](https://www.nuget.org/packages/PdfSharp/1.51.5185-beta)
 * [WMPLib](https://www.nuget.org/packages/WMPLib/)
 * [sourceforge](https://sourceforge.net/)
+* [DocumentFormat.OpenXml](https://www.nuget.org/packages/DocumentFormat.OpenXml/)
 
 ![itextSharpPicture3](./Images/nugetPicture.jpg)
 ![itextSharpPicture3](./Images/itextsharp.jpg)
