@@ -8,12 +8,12 @@
 <p align="center"><img src="https://github.com/wojcikpawel/MusicShopRepository/blob/master/Images/screenshot.jpg" width="850px" /></p>
 
 ## Table of Contents 
-* [General Info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
+* [General Info](#general-info-)
+* [Screenshots](#screenshots-)
+* [Technologies](#technologies-)
 * [Features](#features)
 * [Running Desktop Application](#running-desktop-application)
-* [Library](#library)
+* [Library](#library-)
 * [Additional](#additional)
 
 ## General Info 🎉
