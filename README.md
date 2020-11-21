@@ -38,8 +38,8 @@ Project is created with:
 | .NET Framework                                          | <i>4.8</i>    |
 
 <i></i>
-* C# - <i>version </i>
-* Windows Forms - <i>version </i>
+* C# - <i>version 8.0</i>
+* Windows Forms - <i>version 2.1.3</i>
 * Visual Studio - <i>version 14.0.25422.01 Update 3 2015 Community</i>
 * .NET Framework - <i>version 4.8</i>
 
