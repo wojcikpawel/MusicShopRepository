@@ -137,6 +137,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * net-informations.com - http://csharp.net-informations.com/gui/cs-listbox.htm
 * Pastebin - https://pastebin.com/
 * Cloud Application Platform:
+  * GitHub Pages - https://pages.github.com/
   * Heroku - Platform as a Service - https://www.heroku.com/
   * Microsoft Azure - Platform as a Service - https://azure.microsoft.com/pl-pl/
   * Internet Information Services
