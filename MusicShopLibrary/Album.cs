@@ -31,7 +31,7 @@ namespace MusicShopLibrary
         //wlasciwosc z akcesorem get
         public string ShowStoreAlbums
         {
-            get { return string.Format("{0} - {1} - {2} PLN ", Performer.Alias, Title, Price); }
+            get { return string.Format("{0}", Title); }
         }
 
         public string ShowToPurchasedAlbums

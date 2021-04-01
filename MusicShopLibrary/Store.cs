@@ -32,7 +32,7 @@ namespace MusicShopLibrary
             set { _Imie = value; }
         }
 
-        //konstruktor
+        //konstruktor do stringa oraz listy
         public Store()
         {
             Imie = "JANUSZ KOWALSKI";

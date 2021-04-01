@@ -111,15 +111,21 @@ namespace MusicShopUI
             store.Artists.Add(new Artist { FirstName = "Hans", LastName = "Zimmer", Alias = "Hans Zimmer", Comission = .5 });
 
             // All Albums
-            store.Albums.Add(new Album { Performer = store.Artists[0], Title = "Young Hems", Price = 39.99M });
-            store.Albums.Add(new Album { Performer = store.Artists[0], Title = "Trójkąt Warszawski", Price = 49.99M });
-            store.Albums.Add(new Album { Performer = store.Artists[1], Title = "Monochromy", Price = 39.99M });
-            store.Albums.Add(new Album { Performer = store.Artists[1], Title = "Złe Towarzystwo", Price = 39.99M });
+            store.Albums.Add(new Album { Title = "Young Hems" });
+            // store.Albums.Add(new Album { Performer = store.Artists[0], Title = "Trójkąt Warszawski", Price = 49.99M });
+            // store.Albums.Add(new Album { Performer = store.Artists[1], Title = "Monochromy", Price = 39.99M });
+            // store.Albums.Add(new Album { Performer = store.Artists[1], Title = "Złe Towarzystwo", Price = 39.99M });
+            store.Imie = "SCRUM";
 
+            store.Albums.Add(new Album { Title = "SCRUM" });
+
+            store.Albums.Add(new Album { Title = "KANBAN" });
+
+            store.Albums.Add(new Album { Title = "XP - Extreme Programming" });
             // store.Albums.Add(new Album { Performer = store.Artists[2], Title = "Małomiasteczkowy", Price = 59.99M });
-            store.Albums.Add(new Album { Performer = store.Artists[2], Title = "Plastic Beach", Price = 49.99M });
+            // store.Albums.Add(new Album { Performer = store.Artists[2], Title = "Plastic Beach", Price = 49.99M });
 
-            store.Albums.Add(new Album { Performer = store.Artists[3], Title = "Interstellar", Price = 39.99M });
+            // store.Albums.Add(new Album { Performer = store.Artists[3], Title = "Interstellar", Price = 39.99M });
 
             // Young Hems playlist
             album.YoungHemsPlaylist.Add(new Song { Number = 1, Title = "Fuck Your List", Lenght = new TimeSpan(0, 03, 21), PremiereYear = 2013 });
