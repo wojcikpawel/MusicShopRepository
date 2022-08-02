@@ -200,6 +200,9 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * PicJumbo - https://picjumbo.com/
 * Startupstockphotos - https://startupstockphotos.com/
 
+## The World's Best Translator:
+* DeepL - https://www.deepl.com/translator
+
 ## UI/UX Design:
 https://productvision.pl/2019/projektowanie-ux-ui-8-sposobow-na-to-jak-zaczac/
 
