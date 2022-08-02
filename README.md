@@ -193,6 +193,13 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Icon Finder - https://www.iconfinder.com/
 * Emojipedia - https://emojipedia.org/television/ - tutaj znajdują się fajne emoji do wykorzystania
 
+## Free Graphics To Download:
+* Pixbay - https://pixabay.com/pl/
+* Unsplash - https://unsplash.com/
+* Pexels - https://www.pexels.com/pl-pl/
+* PicJumbo - https://picjumbo.com/
+* Startupstockphotos - https://startupstockphotos.com/
+
 ## UI/UX Design:
 https://productvision.pl/2019/projektowanie-ux-ui-8-sposobow-na-to-jak-zaczac/
 
