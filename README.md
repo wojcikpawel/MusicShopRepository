@@ -202,6 +202,16 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 
 ## The World's Best Translator:
 * DeepL - https://www.deepl.com/translator
+* Photopea - https://www.photopea.com/ - darmowy photoshop w przeglądarce, niezastąpione narzędzie do wszystkiego
+* SimilarWeb - https://www.similarweb.com/ - porównywarka stron, już bezpłatna wersja pozwala na rozeznanie co tam u konkurencji w trawie piszczy
+* Milled - https://milled.com/ - tworzysz newsletter i szukasz inspiracji? tutaj znajdziesz ich tysiące. To taki newsletterowy Pinterest
+* ParpGov - https://www.parp.gov.pl/ - jeśli szukasz statystyk do urozmaicenia swoich materiałów, to tutaj dużo w temacie rynku pracy i przedsiębiorstw
+* Jasnopis - https://jasnopis.pl/ || LanguageTool - https://languagetool.org/pl - narzędzie do sprawdzania tekstów, bo im prościej piszesz tym lepiej
+* AnswerThePublic - https://answerthepublic.com/
+* TypeForm - https://www.typeform.com/ || Mentimeter - https://www.mentimeter.com/ - zbieranie opinii
+* Aleo - https://aleo.com/pl/ - baza firm
+* Canva - https://www.canva.com/pl_pl/ - projektowanie
+* Rejestr.io - https://rejestr.io/ - szukaj w KRS
 
 ## UI/UX Design:
 https://productvision.pl/2019/projektowanie-ux-ui-8-sposobow-na-to-jak-zaczac/
