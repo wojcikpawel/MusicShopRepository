@@ -213,6 +213,11 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Canva - https://www.canva.com/pl_pl/ - projektowanie
 * Rejestr.io - https://rejestr.io/ - szukaj w KRS
 
+## Password manager:
+* 1Password - https://1password.com/
+* Bitwarden - https://bitwarden.com/
+* Nordpass - https://nordpass.com/
+
 ## UI/UX Design:
 https://productvision.pl/2019/projektowanie-ux-ui-8-sposobow-na-to-jak-zaczac/
 
