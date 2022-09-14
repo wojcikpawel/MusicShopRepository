@@ -221,6 +221,9 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ## Documentation:
 * Decision Log - https://www.google.com/search?q=decision+log&oq=Decision+log&aqs=chrome.0.0i512j0i22i30l9.6287j0j1&sourceid=chrome&ie=UTF-8
 
+## Presentation:
+* Slides.com - https://slides.com/pawelwojcik/prezentacja/edit
+
 ## UI/UX Design:
 https://productvision.pl/2019/projektowanie-ux-ui-8-sposobow-na-to-jak-zaczac/
 
