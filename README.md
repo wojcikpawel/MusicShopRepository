@@ -162,8 +162,9 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Telerik UI Documentation - https://www.telerik.com/documentation?utm_source=tci
 * Telerik UI Demos - https://www.telerik.com/support/demos?utm_source=tci
 * Nie wiesz jakie to rozszerzenie pliku i jak go otworzyć? Sprawdź tutaj - https://www.reviversoft.com/pl/file-extensions
-* Color - Hex: - https://www.color-hex.com/color/191919
-* Comments: - https://www.it-swarm.dev/pl/syntax/komentarze-w-markdown/972100416/
+* Color - Hex - https://www.color-hex.com/color/191919
+* Comments - https://www.it-swarm.dev/pl/syntax/komentarze-w-markdown/972100416/
+* Syncfusion - https://www.youtube.com/watch?v=Fe1sCEqGHFc || https://www.syncfusion.com/
   
 * Apache HTTP Server - http://httpd.apache.org/
 * Apache Tomcat - https://tomcat.apache.org/
