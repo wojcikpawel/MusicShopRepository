@@ -114,7 +114,18 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Check packages.config file
   * If You have .dll file on desktop You can add reference clicking PPM on References -> Add Reference...
   
-## Useful Libraries and Websides
+## Useful Libraries and Websides:
+* 10 C# Libraries To Save You Time And Energy - https://www.youtube.com/watch?v=uS0hRJqamfU
+  * SharpZipLib - http://icsharpcode.github.io/SharpZipLib/
+  * FluentEmail - https://github.com/lukencode/FluentEmail
+  * MailKit - https://github.com/jstedfast/MailKit
+  * Papercut SMTP - https://github.com/ChangemakerStudios/Papercut-SMTP
+  * EPPlus - https://github.com/EPPlusSoftware/EPPlus
+  * Hangfire - https://www.hangfire.io/
+  * MassTransit - https://masstransit-project.com/
+  * Polly - https://github.com/App-vNext/Polly
+  * Serilog - https://serilog.net/
+  * Seq - https://datalust.co/seq
 * C# Open-Source - http://www.csharpopensource.com
 * NuGet Package Manager - http://www.xmlpdf.com/dotnetcore.html
 * RDLC
@@ -163,7 +174,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
   * Singleton
   * Builder
   
-* Tymczasowy Testowy Adres Mejlowy - https://10minut.xyz/ - https://10minutemail.net/ - https://10minemail.com/pl/
+* Tymczasowy Testowy Adres Mejlowy - https://10minut.xyz/| https://10minutemail.net/ | https://10minemail.com/pl/
 * Documentation:
    * DoxyGen - http://www.doxygen.nl/index.html
    * Javadoc - https://www.oracle.com/technetwork/java/javase/documentation/index-137483.html#findjavadoc
@@ -237,3 +248,6 @@ This application was created by **Paweł Wójcik** <br />
 
 ## Inspiration 🔱
 This app is inspired by TimCorey: https://www.iamtimcorey.com/
+Patreon: https://www.patreon.com/IAmTimCorey
+Mailing List: https://signup.iamtimcorey.com/
+Purchase Courses: https://www.iamtimcorey.com/
