@@ -165,6 +165,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Color - Hex - https://www.color-hex.com/color/191919
 * Comments - https://www.it-swarm.dev/pl/syntax/komentarze-w-markdown/972100416/
 * Syncfusion - https://www.youtube.com/watch?v=Fe1sCEqGHFc || https://www.syncfusion.com/
+* WPF Diagram - https://www.codeproject.com/Articles/22952/WPF-Diagram-Designer-Part-1 || https://www.syncfusion.com/wpf-controls || https://www.youtube.com/watch?v=6_nME39Gfm0
   
 * Apache HTTP Server - http://httpd.apache.org/
 * Apache Tomcat - https://tomcat.apache.org/
