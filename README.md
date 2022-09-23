@@ -226,8 +226,14 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 
 ## Password manager:
 * 1Password - https://1password.com/
-* Bitwarden - https://bitwarden.com/
+* Bitwarden - https://bitwarden.com/ || https://sekurak.pl/jak-uzywac-bitwarden-a-kompleksowy-poradnik-uzywania-tego-bezplatnego-menadzera-hasel/
 * Nordpass - https://nordpass.com/
+* KeePass Password Safe - https://keepass.info/ || https://sekurak.pl/menedzer-hasel-keepassxc-czy-jest-jak-uzywac-poradnik-od-sekuraka/
+* LastPass - https://www.lastpass.com/
+
+## Security:
+* Haveibeenpwned - https://haveibeenpwned.com/
+* Hashcat - https://hashcat.net/wiki/
 
 ## Documentation:
 * Decision Log - https://www.google.com/search?q=decision+log&oq=Decision+log&aqs=chrome.0.0i512j0i22i30l9.6287j0j1&sourceid=chrome&ie=UTF-8
