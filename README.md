@@ -163,6 +163,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Telerik UI Demos - https://www.telerik.com/support/demos?utm_source=tci
 * Nie wiesz jakie to rozszerzenie pliku i jak go otworzyć? Sprawdź tutaj - https://www.reviversoft.com/pl/file-extensions
 * Color - Hex - https://www.color-hex.com/color/191919
+* Flat UI Colors 2 - https://flatuicolors.com/
 * Comments - https://www.it-swarm.dev/pl/syntax/komentarze-w-markdown/972100416/
 * Syncfusion - https://www.youtube.com/watch?v=Fe1sCEqGHFc || https://www.syncfusion.com/
 * WPF Diagram - https://www.codeproject.com/Articles/22952/WPF-Diagram-Designer-Part-1 || https://www.syncfusion.com/wpf-controls || https://www.youtube.com/watch?v=6_nME39Gfm0
