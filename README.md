@@ -245,7 +245,10 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Slides.com - https://slides.com/pawelwojcik/prezentacja/edit
 
 ## UI/UX Design:
-https://productvision.pl/2019/projektowanie-ux-ui-8-sposobow-na-to-jak-zaczac/
+* https://productvision.pl/2019/projektowanie-ux-ui-8-sposobow-na-to-jak-zaczac/
+
+## Free Video Download:
+* https://www.freemake.com/pl/
 
 Paweł Wójcik &copy;
 
