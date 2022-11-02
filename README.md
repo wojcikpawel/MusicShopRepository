@@ -250,6 +250,9 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ## Free Video Download:
 * https://www.freemake.com/pl/
 
+## Monday:
+* https://monday.com/lang/pl/
+
 Paweł Wójcik &copy;
 
 
