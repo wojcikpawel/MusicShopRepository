@@ -1,0 +1,6 @@
+Przechowywanie danych i zarz¹dzanie baz¹ danych:
+1) plik .txt,
+2) plik .xml,
+3) plik .xls.
+
+https://www.youtube.com/watch?v=6RqSUh1sGj8

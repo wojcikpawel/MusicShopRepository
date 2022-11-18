@@ -57,6 +57,10 @@
             this.stop = new System.Windows.Forms.Button();
             this.play = new System.Windows.Forms.Button();
             this.buttonCreateXLS = new System.Windows.Forms.Button();
+            this.txtTitle = new System.Windows.Forms.TextBox();
+            this.createDatabase = new System.Windows.Forms.Button();
+            this.createTables = new System.Windows.Forms.Button();
+            this.addNewAlbumDB = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.interstellarPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.plasticBeachPictureBox)).BeginInit();
@@ -379,11 +383,58 @@
             this.buttonCreateXLS.UseVisualStyleBackColor = false;
             this.buttonCreateXLS.Click += new System.EventHandler(this.buttonCreateXLS_Click);
             // 
+            // txtTitle
+            // 
+            this.txtTitle.Location = new System.Drawing.Point(384, 262);
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(147, 31);
+            this.txtTitle.TabIndex = 42;
+            // 
+            // createDatabase
+            // 
+            this.createDatabase.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.createDatabase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.createDatabase.Location = new System.Drawing.Point(394, 339);
+            this.createDatabase.Name = "createDatabase";
+            this.createDatabase.Size = new System.Drawing.Size(138, 50);
+            this.createDatabase.TabIndex = 44;
+            this.createDatabase.Text = "Create Database";
+            this.createDatabase.UseVisualStyleBackColor = false;
+            this.createDatabase.Click += new System.EventHandler(this.createDatabase_Click);
+            // 
+            // createTables
+            // 
+            this.createTables.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.createTables.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.createTables.Location = new System.Drawing.Point(393, 395);
+            this.createTables.Name = "createTables";
+            this.createTables.Size = new System.Drawing.Size(138, 50);
+            this.createTables.TabIndex = 45;
+            this.createTables.Text = "Create Tables";
+            this.createTables.UseVisualStyleBackColor = false;
+            this.createTables.Click += new System.EventHandler(this.createTables_Click);
+            // 
+            // addNewAlbumDB
+            // 
+            this.addNewAlbumDB.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.addNewAlbumDB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.addNewAlbumDB.Location = new System.Drawing.Point(394, 451);
+            this.addNewAlbumDB.Name = "addNewAlbumDB";
+            this.addNewAlbumDB.Size = new System.Drawing.Size(138, 50);
+            this.addNewAlbumDB.TabIndex = 46;
+            this.addNewAlbumDB.Text = "Add New Album";
+            this.addNewAlbumDB.UseVisualStyleBackColor = false;
+            this.addNewAlbumDB.Click += new System.EventHandler(this.addNewAlbumDB_Click);
+            // 
             // MusicShop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1354, 763);
+            this.Controls.Add(this.addNewAlbumDB);
+            this.Controls.Add(this.createTables);
+            this.Controls.Add(this.createDatabase);
+            this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.buttonCreateXLS);
             this.Controls.Add(this.nextWindowFormBtn);
             this.Controls.Add(this.interstellarPictureBox);
@@ -461,5 +512,9 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button buttonCreateXLS;
+        private System.Windows.Forms.TextBox txtTitle;
+        private System.Windows.Forms.Button createDatabase;
+        private System.Windows.Forms.Button createTables;
+        private System.Windows.Forms.Button addNewAlbumDB;
     }
 }

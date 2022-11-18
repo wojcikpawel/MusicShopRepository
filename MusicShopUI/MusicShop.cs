@@ -14,6 +14,9 @@ using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 
+using System.Data.SQLite;
+
+
 
 
 using System.Media;
@@ -43,6 +46,21 @@ namespace MusicShopUI
         private int numberus;
         public PlaylistForm playlistform = new PlaylistForm();
         WindowsMediaPlayer player = new WindowsMediaPlayer();
+
+        //POLA POTRZEBNE DO OBSŁUGI BAZY DANYCH SQLite
+        public string path = "C:\\MusicShopRepository\nowe_dane.db";
+        public SQLiteConnection db_connect; //zmienna przechowująca obiekt bazy danych
+        public string db_querry = null;
+        public SQLiteCommand db_command;
+        public string databasePerson;
+
+
+        const string folderBazyDanych = @"E:\bazy\sqlite\";
+        const string plikBazyDanych = "pawelwojcikDB.sqlite";
+
+        string strConnection = @"Data Source=" + folderBazyDanych + plikBazyDanych + ";Version=3;";
+        SQLiteConnection cn;
+
 
         //konstruktor
         public MusicShop()
@@ -88,7 +106,178 @@ namespace MusicShopUI
             //Zapisywanie pliku .xlsx zaraz po uruchomieniu aplikacji
             Test test = new Test();
             test.CreateExcelDoc(@"C:\MusicShopRepository\test2.xlsx");
+            
 
+            //DATABASE SQLite
+            SQLiteConnection.CreateFile(@"C:\\MusicShopRepository\nowe_dane.db");
+            //zmienna przechowująca obiekt bazy danych
+            SQLiteConnection db_connect;
+
+            //utworzenie obiektu potrzebnego do połaczenia się z bazą, składnia wymagana przez bibliotekę
+            db_connect = new SQLiteConnection("Data Source =" + path + ";Version=3;");
+
+            //połączenie się z bazą danych - funkcja tworząca nowy plik nie powoduje otwarcia go
+           // db_connect.Open();
+
+            //utworzenie nowego zapytania dotyczącego utworzenia nowej tabeli w bazie danych
+            db_querry = "CREATE TABLE 'Osoby' ('Imie' TEXT, 'Nazwisko' TEXT)";
+
+            //zmienna przechowująca obiekt do wysyłania zapytań
+            SQLiteCommand db_command;
+
+            //utworzenie obiektu, który odpowiada za wysyłąnie zapytania
+            db_command = new SQLiteCommand(db_querry, db_connect);
+
+            //wykonanie/wysłanie zapytania
+           // db_command.ExecuteNonQuery();
+
+            //zamknięcie połączenia z bazą danych
+            db_connect.Close();
+
+            //Dodanie nowych danych do tabeli wygląda następująco:
+            //utworzenie nowego zapytania dodającego nowe dane do bazy
+            //db_querry = "INSERT INTO 'Osoby' ('Imie', 'Nazwisko') VALUES ('" + txtTitle.Text + "','" + txtDescription.Text + "');";
+
+            //utworzenie obiektu, który odpowiada za wysyłanie zapytania
+            db_command = new SQLiteCommand(db_querry, db_connect);
+
+            //wykonanie/wysłanie zapytania
+          //  db_command.ExecuteNonQuery();
+
+            //MusicShop obiektDB = new MusicShop();
+           // obiektDB.DataBase();
+
+            
+
+
+        }
+
+        public void CreateSQLiteDatabaseFile()
+        {
+            DirectoryInfo di = new DirectoryInfo(folderBazyDanych);
+            di.Create();
+            MessageBox.Show("Utworzono folder bazy danych", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            FileInfo fi = new FileInfo(folderBazyDanych + plikBazyDanych);
+
+            //utworzenie pliku bazy danych SQLite
+            SQLiteConnection.CreateFile(folderBazyDanych + plikBazyDanych);
+            MessageBox.Show("Utworzono bazę danych", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+
+
+            /*
+            SQLiteConnection.CreateFile(databasePerson);
+            using (db_connect = new SQLiteConnection(strConnection))
+            {
+                string sql = "CREATE TABLE 'todoevents'('id' INTEGER PRIMARY KEY AUTOINCREMENT, 'date' TEXT, 'title' TEXT, 'description' TEXT);";
+
+                Console.WriteLine(sql);
+
+                try
+                {
+                    db_connect.Open();
+                    SQLiteCommand cmd = new SQLiteCommand(sql, db_connect);
+
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Utworzono tabelę w bazie danych", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    db_connect.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.HResult + "\n" + ex.Message, "Błąd programu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            */
+        }
+
+        public void CreateSQLiteTables()
+        {
+            using (cn = new SQLiteConnection(strConnection))
+            {
+                string sql = "CREATE TABLE 'albums'('id' INTEGER PRIMARY KEY AUTOINCREMENT, 'date' TEXT, 'title' TEXT, 'description' TEXT);";
+
+                Console.WriteLine(sql);
+
+                try
+                {
+                    cn.Open();
+                    SQLiteCommand cmd = new SQLiteCommand(sql, cn);
+
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Utworzono tabelę w bazie danych", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    cn.Close();
+
+                    
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.HResult + "\n" + ex.Message, "Błąd programu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+          
+
+
+        }
+
+        public void AddNewAlbumToDB()
+        {
+            if (1 == 1)
+            {
+                using (cn = new SQLiteConnection(strConnection))
+                {
+                    cn.Open();
+
+                    string sql = "INSERT INTO albums(date, title, description) VALUES(@param1, @param2, @param3)";
+                    string sqlpawelwojcik = "INSERT INTO albums(date, title, description) VALUES(@param1, 'Ojciec Chrzestny', 'Mój ulubiony film!')";
+
+                    SQLiteParameter param1 = new SQLiteParameter("param1", DbType.DateTime);
+                    SQLiteParameter param2 = new SQLiteParameter("param2", DbType.String);
+                    SQLiteParameter param3 = new SQLiteParameter("param3", DbType.String);
+
+                    SQLiteCommand cmd = new SQLiteCommand(sql, cn);
+
+                    SQLiteCommand cmdpawelwojcik = new SQLiteCommand(sqlpawelwojcik, cn);
+
+                    cmdpawelwojcik.Parameters.Add(param1);
+                    cmdpawelwojcik.Parameters.Add(param2);
+                    cmdpawelwojcik.Parameters.Add(param3);
+
+                    cmd.Parameters.Add(param1);
+                    cmd.Parameters.Add(param2);
+                    cmd.Parameters.Add(param3);
+
+                    param1.Value = DateTime.Now.ToString();
+                    param2.Value = txtTitle.Text;
+                  //  param3.Value = txtDescription.Text;
+
+                    try
+                    {
+                        cmd.ExecuteNonQuery();
+
+                        txtTitle.Text = string.Empty;
+                        //txtDescription.Text = string.Empty;
+
+                        cmdpawelwojcik.ExecuteNonQuery();
+
+
+                      //  RefreshListView();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.HResult + "\n" + ex.Message, "Błąd programu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Niepoprawne dane", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
 
         public void SetupData()
@@ -980,46 +1169,61 @@ namespace MusicShopUI
             }
             */
         }
-        /*
-                 private static void WritingToExcel(WorksheetPart worksheetPart)
-                {
-            //zapis do pliku excel
-            SheetData sheetData = worksheetPart.Worksheet.AppendChild(new SheetData());
 
-            //wiersze i kolumny
-            Row row = new Row();
-            // Cell cell = new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String };
-            row.Append(new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String },
-                       new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String },
-                       new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String });
-
-
-
-            sheetData.AppendChild(row);
-
-            for (int i = 0; i < 20; i++)
-            {
-                //wiersze i kolumny
-                row = new Row();
-                // Cell cell = new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String };
-                row.Append(new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
-                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
-                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
-                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
-                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
-                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
-                           new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String },
-                           new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
-                           new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String });
-
-                sheetData.AppendChild(row);
-            }
-
-            worksheetPart.Worksheet.Save();
-
-
-
+        private void createDatabase_Click(object sender, EventArgs e)
+        {
+            CreateSQLiteDatabaseFile();
         }
-         */
+
+        private void createTables_Click(object sender, EventArgs e)
+        {
+            CreateSQLiteTables();
+        }
+
+        private void addNewAlbumDB_Click(object sender, EventArgs e)
+        {
+            AddNewAlbumToDB();
+        }
+        /*
+private static void WritingToExcel(WorksheetPart worksheetPart)
+{
+//zapis do pliku excel
+SheetData sheetData = worksheetPart.Worksheet.AppendChild(new SheetData());
+
+//wiersze i kolumny
+Row row = new Row();
+// Cell cell = new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String };
+row.Append(new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String });
+
+
+
+sheetData.AppendChild(row);
+
+for (int i = 0; i < 20; i++)
+{
+//wiersze i kolumny
+row = new Row();
+// Cell cell = new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String };
+row.Append(new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test" + i), DataType = CellValues.String },
+new Cell() { CellValue = new CellValue("napis test"), DataType = CellValues.String });
+
+sheetData.AppendChild(row);
+}
+
+worksheetPart.Worksheet.Save();
+
+
+
+}
+*/
     }
     }      
