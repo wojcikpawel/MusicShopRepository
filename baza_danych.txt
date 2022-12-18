@@ -1,0 +1,1 @@
+Utwórz bazê danych -> Utwórz tabelê w bazie danych -> Otwórz bazê danych w Browser SQLite

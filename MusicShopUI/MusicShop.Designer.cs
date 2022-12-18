@@ -61,6 +61,9 @@
             this.createDatabase = new System.Windows.Forms.Button();
             this.createTables = new System.Windows.Forms.Button();
             this.addNewAlbumDB = new System.Windows.Forms.Button();
+            this.deleteAlbumDB = new System.Windows.Forms.Button();
+            this.deleteDatabase = new System.Windows.Forms.Button();
+            this.updateRecordAlbum = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.interstellarPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.plasticBeachPictureBox)).BeginInit();
@@ -426,11 +429,50 @@
             this.addNewAlbumDB.UseVisualStyleBackColor = false;
             this.addNewAlbumDB.Click += new System.EventHandler(this.addNewAlbumDB_Click);
             // 
+            // deleteAlbumDB
+            // 
+            this.deleteAlbumDB.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.deleteAlbumDB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.deleteAlbumDB.Location = new System.Drawing.Point(394, 563);
+            this.deleteAlbumDB.Name = "deleteAlbumDB";
+            this.deleteAlbumDB.Size = new System.Drawing.Size(138, 50);
+            this.deleteAlbumDB.TabIndex = 47;
+            this.deleteAlbumDB.Text = "Delete Album";
+            this.deleteAlbumDB.UseVisualStyleBackColor = false;
+            this.deleteAlbumDB.Click += new System.EventHandler(this.deleteAlbumDB_Click);
+            // 
+            // deleteDatabase
+            // 
+            this.deleteDatabase.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.deleteDatabase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.deleteDatabase.Location = new System.Drawing.Point(393, 619);
+            this.deleteDatabase.Name = "deleteDatabase";
+            this.deleteDatabase.Size = new System.Drawing.Size(138, 50);
+            this.deleteDatabase.TabIndex = 48;
+            this.deleteDatabase.Text = "Delete Database";
+            this.deleteDatabase.UseVisualStyleBackColor = false;
+            this.deleteDatabase.Click += new System.EventHandler(this.deleteDatabase_Click);
+            // 
+            // updateRecordAlbum
+            // 
+            this.updateRecordAlbum.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.updateRecordAlbum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.updateRecordAlbum.Location = new System.Drawing.Point(394, 507);
+            this.updateRecordAlbum.Name = "updateRecordAlbum";
+            this.updateRecordAlbum.Size = new System.Drawing.Size(138, 50);
+            this.updateRecordAlbum.TabIndex = 49;
+            this.updateRecordAlbum.Text = "Update Album";
+            this.updateRecordAlbum.UseVisualStyleBackColor = false;
+            this.updateRecordAlbum.Click += new System.EventHandler(this.updateRecordAlbum_Click);
+            // 
             // MusicShop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1354, 763);
+            this.Controls.Add(this.updateRecordAlbum);
+            this.Controls.Add(this.deleteDatabase);
+            this.Controls.Add(this.deleteAlbumDB);
             this.Controls.Add(this.addNewAlbumDB);
             this.Controls.Add(this.createTables);
             this.Controls.Add(this.createDatabase);
@@ -516,5 +558,8 @@
         private System.Windows.Forms.Button createDatabase;
         private System.Windows.Forms.Button createTables;
         private System.Windows.Forms.Button addNewAlbumDB;
+        private System.Windows.Forms.Button deleteAlbumDB;
+        private System.Windows.Forms.Button deleteDatabase;
+        private System.Windows.Forms.Button updateRecordAlbum;
     }
 }

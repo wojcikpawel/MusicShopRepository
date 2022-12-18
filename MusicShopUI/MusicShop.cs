@@ -54,7 +54,7 @@ namespace MusicShopUI
         public SQLiteCommand db_command;
         public string databasePerson;
 
-
+        //POLA DLA DZIAŁAJĄCEJ BAZY DANYCH
         const string folderBazyDanych = @"E:\bazy\sqlite\";
         const string plikBazyDanych = "pawelwojcikDB.sqlite";
 
@@ -152,8 +152,11 @@ namespace MusicShopUI
 
         }
 
+        //METODA TWORZĄCA BAZĘ DANYCH
+        //Utwórz bazę danych -> Utwórz tabelę w bazie danych -> Otwórz bazę danych w Browser SQLite
         public void CreateSQLiteDatabaseFile()
         {
+            //utworzenie katalogu dla bazy danych
             DirectoryInfo di = new DirectoryInfo(folderBazyDanych);
             di.Create();
             MessageBox.Show("Utworzono folder bazy danych", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -197,7 +200,7 @@ namespace MusicShopUI
         {
             using (cn = new SQLiteConnection(strConnection))
             {
-                string sql = "CREATE TABLE 'albums'('id' INTEGER PRIMARY KEY AUTOINCREMENT, 'date' TEXT, 'title' TEXT, 'description' TEXT);";
+                string sql = "CREATE TABLE 'albums'('id' INTEGER PRIMARY KEY AUTOINCREMENT, 'date' TEXT, 'author' TEXT, 'title' TEXT, 'description' TEXT);";
 
                 Console.WriteLine(sql);
 
@@ -234,7 +237,7 @@ namespace MusicShopUI
                     cn.Open();
 
                     string sql = "INSERT INTO albums(date, title, description) VALUES(@param1, @param2, @param3)";
-                    string sqlpawelwojcik = "INSERT INTO albums(date, title, description) VALUES(@param1, 'Ojciec Chrzestny', 'Mój ulubiony film!')";
+                    string sqlpawelwojcik = "INSERT INTO albums(date, author, title, description) VALUES(@param1, 'taco', 'Ojciec Chrzestny', 'Mój ulubiony film!')";
 
                     SQLiteParameter param1 = new SQLiteParameter("param1", DbType.DateTime);
                     SQLiteParameter param2 = new SQLiteParameter("param2", DbType.String);
@@ -278,6 +281,24 @@ namespace MusicShopUI
             {
                 MessageBox.Show("Niepoprawne dane", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+        }
+
+        public void UpdateAlbum()
+        {
+            //SQL UPDATE STATEMENT
+            //https://www.w3schools.com/sql/sql_update.asp
+            //UPDATE Customers SET ContactName = 'Alfred Schmidt', City = 'Frankfurt' WHERE CustomerID = 1;
+            string sql = "UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition";
+        }
+
+        public void DeleteAlbumFromDB()
+        {
+            string sql = "DELETE FROM table_name WHERE id='1'";
+        }
+
+        public void DeleteDB()
+        {
+            string sql = "DROP DATABASE databasename";
         }
 
         public void SetupData()
@@ -1184,6 +1205,31 @@ namespace MusicShopUI
         {
             AddNewAlbumToDB();
         }
+
+        private void updateRecordAlbum_Click(object sender, EventArgs e)
+        {
+            UpdateAlbum();
+        }
+
+        private void deleteAlbumDB_Click(object sender, EventArgs e)
+        {
+            DeleteAlbumFromDB();
+            //TUTAJ UTWORZYĆ NOWY PRZYCISK USUWAJĄCY REKORD Z BAZY DANYCH DeleteAlbumFromDB
+        }
+
+        private void deleteDatabase_Click(object sender, EventArgs e)
+        {
+            DeleteDB();
+            //https://www.w3schools.com/sql/sql_drop_db.asp
+            //DROP DATABASE databasename;
+        }
+
+       
+
+
+
+
+
         /*
 private static void WritingToExcel(WorksheetPart worksheetPart)
 {
@@ -1226,4 +1272,4 @@ worksheetPart.Worksheet.Save();
 }
 */
     }
-    }      
+}      
