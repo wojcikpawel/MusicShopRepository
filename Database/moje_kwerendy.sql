@@ -16,3 +16,4 @@ DROP TABLE albums;
 DROP DATABASE pawelwojcikDB.sqlite;
 
 CREATE TABLE 'albums'('id' INTEGER PRIMARY KEY AUTOINCREMENT, 'date' TEXT, 'author' TEXT, 'title' TEXT, 'description' TEXT);
+SELECT * FROM albums;
