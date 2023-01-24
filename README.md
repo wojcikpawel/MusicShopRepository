@@ -219,6 +219,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Pexels - https://www.pexels.com/pl-pl/
 * PicJumbo - https://picjumbo.com/
 * Startupstockphotos - https://startupstockphotos.com/
+* Pexels - https://www.pexels.com/pl-pl/
 
 ## The World's Best Translator:
 * DeepL - https://www.deepl.com/translator
