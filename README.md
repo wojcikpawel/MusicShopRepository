@@ -260,6 +260,15 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 ## Monday:
 * https://monday.com/lang/pl/
 
+## API (ang. Application Programming Interface):
+* iMapLiteApi - to biblioteka javascript umożliwiającą osadzenie mapy na stronie html oraz wywołanie funkcji pozwalającej na wyszukanie lokalizacji punktu adresowego na podstawie danych adresowych lub bezpośrednio wskazanie lokalizacji punktu o zadanych współrzędnych i wyróżnienie go na mapie w postaci markera/pinezki wraz z wyświetleniem informacji tekstowej w dymku. Przykładową aplikacją korzystającą z API jest: https://integracja.gugik.gov.pl/geoportal_api/?adr=Warszawa,Wsp%C3%B3lna+2&title=G%C5%82%C3%B3wny%20Urz%C4%85d%20geodezji%20i%20Kartografii. Aplikacja posiada dwa parametry wywołania:
+
+‘adr’ - adres prezentowanego obiektu oraz
+
+‘title’ – nazwę obiektu, obie informacje wyświetlane są w dymku wskazującym punkt adresowy.
+
+Tutaj bezpośredni adres - http://mapy.geoportal.gov.pl/iMapLite/doc/
+
 Paweł Wójcik &copy;
 
 
@@ -270,6 +279,9 @@ This application was created by **Paweł Wójcik** <br />
 
 ## Inspiration 🔱
 This app is inspired by TimCorey: https://www.iamtimcorey.com/
+
 Patreon: https://www.patreon.com/IAmTimCorey
+
 Mailing List: https://signup.iamtimcorey.com/
+
 Purchase Courses: https://www.iamtimcorey.com/
