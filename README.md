@@ -269,6 +269,8 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 
 Tutaj bezpośredni adres - http://mapy.geoportal.gov.pl/iMapLite/doc/
 
+* SoundCloud for Developers - https://developers.soundcloud.com/ || https://developers.soundcloud.com/docs/api/explorer/open-api
+
 Paweł Wójcik &copy;
 
 
