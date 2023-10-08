@@ -271,6 +271,10 @@ Tutaj bezpośredni adres - http://mapy.geoportal.gov.pl/iMapLite/doc/
 
 * SoundCloud for Developers - https://developers.soundcloud.com/ || https://developers.soundcloud.com/docs/api/explorer/open-api
 
+## AI (ang. Artificial Intelligence):
+* https://stockimg.ai/home - Tworzenie grafik z wykorzystaniem sztucznej inteligencji
+
+
 Paweł Wójcik &copy;
 
 
