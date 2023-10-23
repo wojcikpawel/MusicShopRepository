@@ -270,6 +270,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 Tutaj bezpośredni adres - http://mapy.geoportal.gov.pl/iMapLite/doc/
 
 * SoundCloud for Developers - https://developers.soundcloud.com/ || https://developers.soundcloud.com/docs/api/explorer/open-api
+* iMapLiteAPI - http://mapy.geoportal.gov.pl/iMapLite/doc/ || https://www.geoportal.gov.pl/pl/usluga/usluga-api/
 
 ## AI (ang. Artificial Intelligence):
 * https://stockimg.ai/home - Tworzenie grafik z wykorzystaniem sztucznej inteligencji
