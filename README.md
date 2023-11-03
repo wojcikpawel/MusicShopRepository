@@ -212,6 +212,7 @@ C:\Users\User\MusicShopRepository-master\MusicShopUI\bin\Debug\Albums.pdf
 * Find Icons - https://findicons.com/
 * Icon Finder - https://www.iconfinder.com/
 * Emojipedia - https://emojipedia.org/television/ - tutaj znajdują się fajne emoji do wykorzystania
+* IconBuddy - https://iconbuddy.app/
 
 ## Free Graphics To Download:
 * Pixbay - https://pixabay.com/pl/
