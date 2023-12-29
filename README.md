@@ -280,6 +280,9 @@ Tutaj bezpośredni adres - http://mapy.geoportal.gov.pl/iMapLite/doc/
 ## AI (ang. Artificial Intelligence):
 * https://stockimg.ai/home - Tworzenie grafik z wykorzystaniem sztucznej inteligencji
 
+## Tworzenie aplikacji .NET na Raspberry Pi [Kurs C#]:
+* https://www.youtube.com/watch?v=0s_kCRHn1ek
+
 
 Paweł Wójcik &copy;
 
