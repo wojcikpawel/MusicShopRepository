@@ -280,6 +280,10 @@ Tutaj bezpośredni adres - http://mapy.geoportal.gov.pl/iMapLite/doc/
 ## AI (ang. Artificial Intelligence):
 * https://stockimg.ai/home - Tworzenie grafik z wykorzystaniem sztucznej inteligencji
 
+## Audio Processing:
+* https://vocalremover.org/pl/
+* https://x-minus.pro/ai
+
 ## Tworzenie aplikacji .NET na Raspberry Pi [Kurs C#]:
 * https://www.youtube.com/watch?v=0s_kCRHn1ek
 
