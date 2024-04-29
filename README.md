@@ -276,6 +276,7 @@ Tutaj bezpośredni adres - http://mapy.geoportal.gov.pl/iMapLite/doc/
 * NASA API - https://api.nasa.gov/
 * MovieDB API - https://developer.themoviedb.org/reference/intro/getting-started
 * TempMail API - https://temp-mail.org/en/api
+* API - https://www.skapiec.pl/nowe-api-skapiec
 
 ## AI (ang. Artificial Intelligence):
 * https://stockimg.ai/home - Tworzenie grafik z wykorzystaniem sztucznej inteligencji
